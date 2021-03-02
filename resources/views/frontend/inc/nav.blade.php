@@ -95,7 +95,7 @@
                     <li class="list-inline-item mr-3 col-lg-2 text-center"
                         style="padding: 0;border: solid;border-width: 1px;vertical-align: middle;top: 6px;">
                         <a href="{{ route('user.login') }}" class="text-reset py-2 d-inline-block opacity-60"
-                            style="padding-top: 0 !important;padding-bottom: 0 !important; opacity: unset !important;">{{ translate('My Panel')}}</a>
+                            style="padding-top: 0 !important;padding-bottom: 0 !important; opacity: unset !important;">{{ translate('Sign In')}}</a>
                     </li>
                     <li class="list-inline-item col-lg-2 text-center"
                         style="padding: 0;border: solid;border-width: 1px;vertical-align: middle;top: 6px;">

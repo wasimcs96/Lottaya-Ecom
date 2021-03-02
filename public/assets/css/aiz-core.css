@@ -244,8 +244,8 @@ fixed-bottom 1030*/
 }
 .absolute-top-right {
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 100px;
+    left: 160px;
 }
 .absolute-top-left {
     position: absolute;
@@ -3971,10 +3971,10 @@ input[type="number"] {
     line-height: 32px;
     border-radius: 50%;
     text-align: center;
-    background: #fff;
+    background: #FCF3EB;
     margin-top: 5px;
     margin-right: 5px;
-    color: #333;
+    color: rgba(165, 127, 43, 0.7);;
     font-size: 15px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 3px 8px rgba(0,0,0,0.12);
     transform: translateX(calc(100% + 7px));
@@ -3995,7 +3995,7 @@ input[type="number"] {
 .aiz-card-box{
     overflow: hidden;
 }
-.aiz-card-box:hover .aiz-p-hov-icon a {
+.aiz-card-box:hover {
     transform: translateX(0);
     -webkit-transform: translateX(0);
 }
@@ -5933,7 +5933,7 @@ div.footable-loader > span.fooicon:after {
     height: 40px;
     background: #fff;
     border-radius: 50em;
-    border: 1px solid #B57F2F;
+    border: 1px solid #A57F2B;
     box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
         0 3px 1px 0 rgba(20, 23, 28, 0.1);
     font-size: 15px;
@@ -5969,7 +5969,7 @@ div.footable-loader > span.fooicon:after {
     padding: 0px;
     color: transparent;
     border: 0;
-    background:#B57F2F;
+    background:#A57F2B;
     border-radius: 50%;
     margin: 0 3px;
 }
