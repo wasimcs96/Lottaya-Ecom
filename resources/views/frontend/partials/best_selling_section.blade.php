@@ -4,8 +4,8 @@
         <div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
             <div class="d-flex mb-3 align-items-baseline border-bottom">
                 <h3 class="h5 fw-600 mb-0">
-                    <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block"
-                        style="font-size: 26px;font-style: italic;color: #B57F2F;">{{ translate('Trending Searches') }}</span>
+                    <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block homeheading"
+                        style="font-style: italic;color: #B57F2F;">{{ translate('Trending Searches') }}</span>
                 </h3>
                 <a href="javascript:void(0)" class="ml-auto mr-0 btn btn-primary btn-sm shadow-md" style="
     color: #B57F2F;
@@ -41,7 +41,7 @@
                                     data-placement="left">
                                     <i class="la la-heart-o"></i>
                                 </a>
-                                <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})"
+                                <!-- <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})"
                                     data-toggle="tooltip" data-title="{{ translate('Add to compare') }}"
                                     data-placement="left">
                                     <i class="las la-sync"></i>
@@ -50,7 +50,7 @@
                                     data-toggle="tooltip" data-title="{{ translate('Add to cart') }}"
                                     data-placement="left">
                                     <i class="las la-shopping-cart"></i>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                         <div class="p-md-3 p-2 text-left">
@@ -79,7 +79,7 @@
     font-style: italic;
     width: 13vh;
     background-color: #FFFAF6;
-">BUY NOW</button>
+">Add to Cart</button>
                                 </a>
                             </div>
 

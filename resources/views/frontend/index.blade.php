@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Categories , Sliders . Today's deal --}}
-    <div class="home-banner-area mb-4 pt-3" style="padding: 0 !important;height: ;min-height: 85vh;">
+    <div class="home-banner-area mb-4 pt-3" style="padding: 0 !important;height: ;min-height: 47.8125vw;">
         <div class="mw-100 container" style="padding: 0 !important;">
             <div class="row gutters-10 position-relative">
                 <!-- <div class="col-lg-3 position-static d-none d-lg-block">
