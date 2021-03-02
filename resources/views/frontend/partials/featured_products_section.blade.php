@@ -1,13 +1,21 @@
 <section class="mb-4">
     <div class="container mw-100">
         <div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
-            <div class="d-flex mb-3 align-items-baseline border-bottom">
+            <div class="d-flex mb-3 align-items-baseline border-bottom justify-content-between">
                 <h3 class="h5 fw-600 mb-0">
-                    <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block"
-                        style="font-size: 26px;font-style: italic;color: #B57F2F;">{{ translate('Featured Products') }}</span>
+                    <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block homeheading"
+                        style="font-style: italic;color: #B57F2F;">{{ translate('Featured Products') }}</span>
                 </h3>
-               <a href="#"  class="ml-auto mr-0 btn btn-primary btn-sm shadow-md w-100 w-md-auto"
-                        style="background-color: transparent;border-color:  #A57F2B;color: #A57F2B;font-style: italic;">View More</a>
+               <!-- <a href="#"  class="ml-auto mr-0 btn btn-primary btn-sm shadow-md w-100 w-md-auto"
+                        style="background-color: transparent;border-color:  #A57F2B;color: #A57F2B;font-style: italic;">View More</a> -->
+                        <a href="javascript:void(0)" class="btn btn-primary btn-sm shadow-md" style="
+    color: #B57F2F;
+    background-color: white;
+    font-style: italic;
+    font-weight: 600;
+    border: 1px solid #A57F2B;
+    white-space: nowrap;
+">View More</a>
             </div>
             <div class="aiz-carousel gutters-10 half-outside-arrow" data-items="6" data-xl-items="5" data-lg-items="4"
                 data-md-items="3" data-sm-items="2" data-xs-items="2" data-arrows='true' data-infinite='true'>
@@ -29,7 +37,7 @@
                                     data-placement="left">
                                     <i class="la la-heart-o"></i>
                                 </a>
-                                <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})"
+                                <!-- <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})"
                                     data-toggle="tooltip" data-title="{{ translate('Add to compare') }}"
                                     data-placement="left">
                                     <i class="las la-sync"></i>
@@ -38,7 +46,7 @@
                                     data-toggle="tooltip" data-title="{{ translate('Add to cart') }}"
                                     data-placement="left">
                                     <i class="las la-shopping-cart"></i>
-                                </a>
+                                </a> -->
                             </div>
                         </div>
                         <div class="p-md-3 p-2 text-left">
@@ -67,7 +75,7 @@
     font-style: italic;
     width: 13vh;
     background-color: #FFFAF6;
-">BUY NOW</button>
+">Add to Cart</button>
                                 </a>
 
                             </div>
