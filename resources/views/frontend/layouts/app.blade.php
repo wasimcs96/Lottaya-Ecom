@@ -77,6 +77,13 @@
             --hov-primary: {{ get_setting('base_hov_color', '#c52907') }};
             --soft-primary: {{ hex2rgba(get_setting('base_color','#e62d04'),.15) }};
         }
+        
+        @media(max-width: 768px)
+        {
+            .homeslider1{
+                height: 15rem !important;
+            }
+        }
 
 #insta {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -127,7 +134,7 @@
 <body>
 
     <!-- aiz-main-wrapper -->
-    <div class="aiz-main-wrapper d-flex flex-column">
+    <div class="aiz-main-wrapper d-flex flex-column" style="background-color: #e8e4e1">
 
         <!-- Header -->
         @include('frontend.inc.nav')

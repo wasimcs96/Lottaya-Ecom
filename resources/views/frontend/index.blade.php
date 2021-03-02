@@ -16,13 +16,13 @@
 
                 <div class="@if($num_todays_deal > 0) col-lg-12 @else col-lg-9 @endif">
                     @if (get_setting('home_slider_images') != null)
-                        <div class="aiz-carousel dots-inside-bottom mobile-img-auto-height" data-arrows="true" data-dots="true" data-autoplay="true" data-infinite="true" >
+                        <div class="aiz-carousel dots-inside-bottom mobile-img-auto-height homeslider1" data-arrows="true" data-dots="true" data-autoplay="true" data-infinite="true" >
                             @php $slider_images = json_decode(get_setting('home_slider_images'), true);  @endphp
                             @foreach ($slider_images as $key => $value)
                                 <div class="carousel-box">
                                     <a href="{{ json_decode(get_setting('home_slider_links'), true)[$key] }}">
                                         <img
-                                            class="d-block mw-100 lazyload img-fit img-fluid rounded shadow-sm"
+                                            class="d-block mw-100 lazyload img-fit img-fluid rounded shadow-sm homeslider1"
                                             src="{{ static_asset('assets/img/placeholder-rect.jpg') }}"
                                             data-src="{{ uploaded_asset($slider_images[$key]) }}"
                                             alt="{{ env('APP_NAME')}} promo"
@@ -445,7 +445,7 @@
             $.post('{{ route('home.section.home_categories') }}', {_token:'{{ csrf_token() }}'}, function(data){
                 $('#section_home_categories').html(data);
                 AIZ.plugins.slickCarousel();
-            });
+            }); 
 
             @if (\App\BusinessSetting::where('type', 'vendor_system_activation')->first()->value == 1)
             $.post('{{ route('home.section.best_sellers') }}', {_token:'{{ csrf_token() }}'}, function(data){
