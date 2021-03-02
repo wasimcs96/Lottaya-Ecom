@@ -111,13 +111,13 @@
                                 {{ translate('Subscribe') }}
                             </button>
                         </form> -->
-                        <h6 style="color: #898b92 ;font-style: italic;"> Contact Us</h6>
+                        <!-- <h6 style="color: #898b92 ;font-style: italic;"> Contact Us</h6> -->
                         <p style="color: #898b92 ;font-style: italic;">7 Temasek Boulevard, <br>#12-07 Suntec Tower <br> one, Singapore 038987</p>
-                        <h6 style="color:#898b92 ;font-style: italic;">About Us</h6>
+                        <!-- <h6 style="color:#898b92 ;font-style: italic;">About Us</h6> -->
                         <p style="color: #898b92 ;font-style: italic;">+6582688211</p>
-                        <h6 style="color:#898b92 ;font-style: italic;">Careers</h6>
+                        <!-- <h6 style="color:#898b92 ;font-style: italic;">Careers</h6> -->
                         <p style="color: #898b92 ;font-style: italic;">Hello@lotayaa.com</p>
-                        <h6 style="color:#898b92 ;font-style: italic;">Lotayaa Stories</h6>
+                        <!-- <h6 style="color:#898b92 ;font-style: italic;">Lotayaa Stories</h6> -->
                     </div>
                 </div>
             </div>
@@ -226,19 +226,19 @@
                         {{ get_setting('widget_one') }}
                     </h4>
                     <ul class="list-unstyled fw-600" style="color: black;">
-                    <li class="mb-2">
-                            <a class="opacity-50 hov-opacity-100 text-reset"
-                        
-                                href="{{ url('/returnpolicy') }}">
-                                Delivery & Returns
-                            </a>
-                        </li>
 
                         <li class="mb-2">
                             <a class="opacity-50 hov-opacity-100 text-reset"
                         
                                 href="{{ url('/privacypolicy') }}">
                                 Privacy Policy 
+                            </a>
+                        </li>
+                    <li class="mb-2">
+                            <a class="opacity-50 hov-opacity-100 text-reset"
+                        
+                                href="{{ url('/returnpolicy') }}">
+                                Delivery & Returns
                             </a>
                         </li>
                     </ul>
