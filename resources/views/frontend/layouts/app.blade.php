@@ -89,6 +89,9 @@
             .homeheading{
                 font-size: 26px !important;
             }
+            .aboutusheading{
+                font-size: 40px !important;
+            }
         }
 
 #insta {

@@ -21,7 +21,7 @@ Route::get('/convert_category', 'DemoController@convert_category');
 Route::get('/refresh-csrf', function(){
     return csrf_token();
 });
-Route::get('/frontend/partials/about-us', function(){
+Route::get('/about-us', function(){
     return view('frontend/partials/about-us');
 });
 Route::post('/aiz-uploader', 'AizUploadController@show_uploader');
