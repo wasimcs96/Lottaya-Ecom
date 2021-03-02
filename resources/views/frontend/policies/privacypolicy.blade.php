@@ -25,7 +25,7 @@
 </section>
 <section class="mb-4">
     <div class="container">
-        <div class="p-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left">
+        <div class="p-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left" style="font-style: italic;">
             @php
                 echo $privacy_policy->getTranslation('content');
             @endphp
