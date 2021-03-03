@@ -21,7 +21,7 @@
     </div>
 </section>
 <div class="container">
-<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column">
+<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 7.395833333333333vw;">
 <!-- <font color="#efc631">&nbsp;</font> -->
 <div class="vc_row wpb_row vc_row-fluid"
     style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline;">
@@ -267,12 +267,12 @@
         </div>
     </div>
 </div>
-<div class="vc_row wpb_row vc_row-fluid"
+<div class="vc_row wpb_row vc_row-fluid row"
     style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: rgb(76, 76, 76);">
-    <div class="wpb_column vc_column_container vc_col-sm-4"
-        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px; position: relative; min-height: 1px; float: left;">
+    <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4"
+        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
-            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px;">
+            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%;">
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <div class="wpb_single_image wpb_content_element vc_align_left"
@@ -305,10 +305,10 @@
             </div>
         </div>
     </div>
-    <div class="wpb_column vc_column_container vc_col-sm-4"
-        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px; position: relative; min-height: 1px; float: left;">
+    <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4"
+        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
-            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px;">
+            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%;">
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <div class="wpb_single_image wpb_content_element vc_align_center vc_custom_1609180284724"
@@ -343,10 +343,10 @@
             </div>
         </div>
     </div>
-    <div class="wpb_column vc_column_container vc_col-sm-4"
-        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px; position: relative; min-height: 1px; float: left;">
+    <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4"
+        style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
-            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 390px;">
+            style="margin: 0px; padding: 0px 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%;">
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <div class="wpb_single_image wpb_content_element vc_align_right"
@@ -390,7 +390,7 @@
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <h2 class="vc_custom_heading aboutusheading"
-                    style="font-family: Montserrat; line-height: 1.1; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; vertical-align: baseline;">
+                    style="font-family: Montserrat; line-height: 1.1; margin-right: auto; margin-bottom: 20px; margin-left: auto; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; vertical-align: baseline;width: fit-content;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                         <font color="#b57f2f">Corporate Social Responsibility<span

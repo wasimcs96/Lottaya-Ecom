@@ -24,8 +24,11 @@ Route::get('/refresh-csrf', function(){
 Route::get('/about-us', function(){
     return view('frontend/partials/about-us');
 });
-Route::get('/faq1', function(){
-    return view('frontend/partials/faq');
+Route::get('/lotayaacare', function(){
+    return view('frontend/partials/lotayaacare');
+});
+Route::get('/partnerwithus', function(){
+    return view('frontend/partials/partner_with_us');
 });
 Route::post('/aiz-uploader', 'AizUploadController@show_uploader');
 Route::post('/aiz-uploader/upload', 'AizUploadController@upload');
