@@ -5311,7 +5311,7 @@ input[type="number"] {
     color: var(--white);
 }
 .btn-link {
-    color: var(--primary);
+    color: var(--hov-primary);
 }
 .btn-link:hover {
     color: var(--hov-primary);
