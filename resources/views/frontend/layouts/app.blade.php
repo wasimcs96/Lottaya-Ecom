@@ -85,6 +85,9 @@
             .homeslider1{
                 height: 15rem !important;
             }
+            .hide-on-mobile{
+                display: none!important;
+            }
         }
         @media(min-width: 768px)
         {
@@ -93,6 +96,9 @@
             }
             .aboutusheading{
                 font-size: 40px !important;
+            }
+            .hide-on-desktop{
+                display: none!important;
             }
         }
 

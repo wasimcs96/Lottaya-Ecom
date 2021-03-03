@@ -129,7 +129,7 @@
                         @endif
                     </a>
 
-                    @if(Route::currentRouteName() != 'home')
+                    <!-- @if(Route::currentRouteName() != 'home')
                     <div class="d-none d-xl-block align-self-stretch category-menu-icon-box ml-auto mr-0">
                         <div class="h-100 d-flex align-items-center" id="category-menu-icon">
                             <div
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                     </div>
-                    @endif
+                    @endif -->
                 </div>
                 <div class="d-lg-none ml-auto mr-0">
                     <a class="p-2 d-block text-reset" href="javascript:void(0);" data-toggle="class-toggle"
@@ -224,7 +224,7 @@
 
             </div>
         </div>
-        @if(Route::currentRouteName() != 'home')
+        <!-- @if(Route::currentRouteName() != 'home') -->
         <div class="hover-category-menu position-absolute w-100 top-100 left-0 right-0 d-none z-3"
             id="hover-category-menu">
             <div class="container">
@@ -235,15 +235,32 @@
                 </div>
             </div>
         </div>
-        @endif
+        <!-- @endif -->
+       
     </div>
     <nav>
-        <div class="text-center" id="navbar">
-            <a href="" style="color: #676767;">HOME</a>
-        <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-        <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
-        <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-        <a href="" style="color: #676767;"> CONTACT US</a>
+        <div class="text-center hide-on-mobile" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
+                <a href="" style="color: #676767;">HOME</a>
+                <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
+                <!-- <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a> -->
+                <div class="d-xl-block align-self-stretch category-menu-icon-box mr-0">
+                        <div class="d-flex align-items-center" id="category-menu-icon">
+                            <div
+                                class="dropdown-toggle">
+                                <span class="" style="color: #676767;"> SUSTAINABLE SHOP </span>
+                            </div>
+                        </div>
+                </div>
+                <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
+                <a href="" style="color: #676767;"> CONTACT US</a>
+        </div>
+        <div class="text-center hide-on-desktop" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
+        <a href="" style="color: #676767;">HOME</a>
+                <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
+                <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
+                <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
+                <a href="" style="color: #676767;"> CONTACT US</a>
+    </div>
             <!-- <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
         <a href="" style="color: #676767;">NEW&nbspARRIVALS</a>
 
