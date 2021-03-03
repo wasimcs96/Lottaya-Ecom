@@ -247,7 +247,7 @@
             <!-- <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
         <a href="" style="color: #676767;">NEW&nbspARRIVALS</a>
 
-            <!-- <ul>
+             <ul>
         <li><a href="#">HOME</a></li>
         <li>
           <a href="#">SUSTAINABLE SHOP</a>

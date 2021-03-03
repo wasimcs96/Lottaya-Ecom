@@ -116,9 +116,9 @@ div&gt;
     div&gt;
     
 div&gt;
-<!-- @endsection -->
+ @endsection
 
-<!-- @section('script')
+ @section('script')
 <script type="text/javascript">
 $(document).ready(function() {
     $('#paymentForm').submit()
@@ -134,6 +134,6 @@ script>
 
 </div>
 </div>
-@endsection -->
+@endsection
 
 @endsection
