@@ -62,23 +62,23 @@
                                                 <span class="aiz-rounded-check flex-shrink-0 mt-1"></span>
                                                 <span class="flex-grow-1 pl-3 text-left">
                                                     <div>
-                                                        <span class="opacity-60">{{ translate('Address') }}:</span>
+                                                        <span class="">{{ translate('Address') }}:</span>
                                                         <span class="fw-600 ml-2">{{ $address->address }}</span>
                                                     </div>
                                                     <div>
-                                                        <span class="opacity-60">{{ translate('Postal Code') }}:</span>
+                                                        <span class="">{{ translate('Postal Code') }}:</span>
                                                         <span class="fw-600 ml-2">{{ $address->postal_code }}</span>
                                                     </div>
                                                     <div>
-                                                        <span class="opacity-60">{{ translate('City') }}:</span>
+                                                        <span class="">{{ translate('City') }}:</span>
                                                         <span class="fw-600 ml-2">{{ $address->city }}</span>
                                                     </div>
                                                     <div>
-                                                        <span class="opacity-60">{{ translate('Country') }}:</span>
+                                                        <span class="">{{ translate('Country') }}:</span>
                                                         <span class="fw-600 ml-2">{{ $address->country }}</span>
                                                     </div>
                                                     <div>
-                                                        <span class="opacity-60">{{ translate('Phone') }}:</span>
+                                                        <span class="">{{ translate('Phone') }}:</span>
                                                         <span class="fw-600 ml-2">{{ $address->phone }}</span>
                                                     </div>
                                                 </span>
@@ -156,7 +156,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 text-center text-md-right">
-                            <button type="submit" class="btn btn-primary fw-600">{{ translate('Continue to Delivery Info')}}</a>
+                            <button type="submit" class="btn btn-primary fw-600" style="background-color: #B57F2F;">{{ translate('Continue to Delivery Info')}}</a>
                         </div>
                     </div>
                 </form>

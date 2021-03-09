@@ -87,7 +87,7 @@
                                                 alt="{{  $product->getTranslation('name')  }}"
                                             >
                                         </span>
-                                        <span class="fs-14 opacity-60">{{ $product->getTranslation('name') }}</span>
+                                        <span class="fs-14">{{ $product->getTranslation('name') }}</span>
                                     </div>
                                 </li>
                                 @endforeach
@@ -156,7 +156,7 @@
                             @endif
                         </div>
                         <div class="card-footer justify-content-end">
-                            <button type="submit" name="owner_id" value="{{ App\User::where('user_type', 'admin')->first()->id }}" class="btn fw-600 btn-primary">{{ translate('Continue to Payment')}}</a>
+                            <button type="submit" name="owner_id" value="{{ App\User::where('user_type', 'admin')->first()->id }}" class="btn fw-600 btn-primary" style="background-color: #B57F2F;">{{ translate('Continue to Payment')}}</a>
                         </div>
                     </div>
                 </form>
@@ -268,7 +268,7 @@
                     @endif
                 </form>
                 <div class="pt-4">
-                    <a href="{{ route('home') }}" >
+                    <a href="{{ route('home') }}" style="color: #5E5E5E;">
                         <i class="la la-angle-left"></i>
                         {{ translate('Return to shop')}}
                     </a>

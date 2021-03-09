@@ -77,7 +77,7 @@
 
                     <div class="col-xl-7 col-lg-6">
                         <div class="text-left">
-                            <h1 class="mb-2 fs-20 fw-600">
+                            <h1 class="mb-2 fs-20 fw-600" style="color: #B57F2F">
                                 {{ $detailedProduct->getTranslation('name') }}
                             </h1>
 
@@ -115,7 +115,7 @@
                             <hr>
 
                             <div class="row align-items-center">
-                                <div class="col-auto">
+                                <div class="col-auto" style="color: #5E5E5E">
                                     <small class="mr-2 opacity-50">{{ translate('Sold by')}}: </small><br>
                                     @if ($detailedProduct->added_by == 'seller' && \App\BusinessSetting::where('type', 'vendor_system_activation')->first()->value == 1)
                                         <a href="{{ route('shop.visit', $detailedProduct->user->shop->slug) }}" class="text-reset">{{ $detailedProduct->user->shop->name }}</a>
@@ -125,12 +125,12 @@
                                 </div>
                                 @if (\App\BusinessSetting::where('type', 'conversation_system')->first()->value == 1)
                                     <div class="col-auto">
-                                        <button class="btn btn-sm btn-soft-primary" onclick="show_chat_modal()">{{ translate('Message Seller')}}</button>
+                                        <button class="btn btn-sm btn-soft-primary" onclick="show_chat_modal()" style="border:solid 1px #B57F2F;color: #B57F2F">{{ translate('Message Seller')}}</button>
                                     </div>
                                 @endif
 
                                 @if ($detailedProduct->brand != null)
-                                    <div class="col-auto">
+                                    <div class="col-auto" style="color: #5E5E5E">
                                         <img src="{{ uploaded_asset($detailedProduct->brand->logo) }}" alt="{{ $detailedProduct->brand->getTranslation('name') }}" height="30">
                                     </div>
                                 @endif
@@ -142,14 +142,14 @@
 
                                 <div class="row no-gutters mt-3">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{ translate('Price')}}:</div>
+                                        <div class=" my-2" style="color: #5E5E5E">{{ translate('Price')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="fs-20 opacity-60">
                                             <del>
                                                 {{ home_price($detailedProduct->id) }}
                                                 @if($detailedProduct->unit != null)
-                                                    <span>/{{ $detailedProduct->getTranslation('unit') }}</span>
+                                                    <!-- <span>/{{ $detailedProduct->getTranslation('unit') }}</span> -->
                                                 @endif
                                             </del>
                                         </div>
@@ -158,15 +158,15 @@
 
                                 <div class="row no-gutters my-2">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50">{{ translate('Discount Price')}}:</div>
+                                        <div class="" style="color: #5E5E5E">{{ translate('Discount Price')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="">
-                                            <strong class="h2 fw-600 text-primary">
+                                            <strong class="h2 fw-600 text-primary" style="color: #5E5E5E !important;opacity: 0.8;">
                                                 {{ home_discounted_price($detailedProduct->id) }}
                                             </strong>
                                             @if($detailedProduct->unit != null)
-                                                <span class="opacity-70">/{{ $detailedProduct->getTranslation('unit') }}</span>
+                                                <!-- <span class="opacity-70">/{{ $detailedProduct->getTranslation('unit') }}</span> -->
                                             @endif
                                         </div>
                                     </div>
@@ -174,14 +174,14 @@
                             @else
                                 <div class="row no-gutters mt-3">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{ translate('Price')}}:</div>
+                                        <div class="my-2" style="color: #5E5E5E">{{ translate('Price')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="">
                                             <strong class="h2 fw-600 text-primary">
                                                 {{ home_discounted_price($detailedProduct->id) }}
                                             </strong>
-                                            <span class="opacity-70">/{{ $detailedProduct->getTranslation('unit') }}</span>
+                                            <!-- <span class="opacity-70">/{{ $detailedProduct->getTranslation('unit') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@
                             @if (\App\Addon::where('unique_identifier', 'club_point')->first() != null && \App\Addon::where('unique_identifier', 'club_point')->first()->activated && $detailedProduct->earn_point > 0)
                                 <div class="row no-gutters mt-4">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{  translate('Club Point') }}:</div>
+                                        <div class="my-2" style="color: #5E5E5E">{{  translate('Club Point') }}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="d-inline-block rounded px-2 bg-soft-primary border-soft-primary border">
@@ -265,7 +265,7 @@
                                 <!-- Quantity + Add to cart -->
                                 <div class="row no-gutters">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{ translate('Quantity')}}:</div>
+                                        <div class="my-2" style="color: #5E5E5E">{{ translate('Quantity')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="product-quantity d-flex align-items-center">
@@ -278,7 +278,7 @@
                                                     <i class="las la-plus"></i>
                                                 </button>
                                             </div>
-                                            <div class="avialable-amount opacity-60">(<span id="available-quantity">{{ $qty }}</span> {{ translate('available')}})</div>
+                                            <div class="avialable-amount" style="color: #5E5E5E">(<span id="available-quantity">{{ $qty }}</span> {{ translate('available')}})</div>
                                         </div>
                                     </div>
                                 </div>
@@ -287,11 +287,11 @@
 
                                 <div class="row no-gutters pb-3 d-none" id="chosen_price_div">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{ translate('Total Price')}}:</div>
+                                        <div class="my-2" style="color: #5E5E5E">{{ translate('Total Price')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="product-price">
-                                            <strong id="chosen_price" class="h4 fw-600 text-primary">
+                                            <strong id="chosen_price" class="h4 fw-600 text-primary" style="color: #B57F2F !important;">
 
                                             </strong>
                                         </div>
@@ -302,15 +302,15 @@
 
                             <div class="mt-3">
                                 @if ($qty > 0)
-                                    <button type="button" class="btn btn-soft-primary mr-2 add-to-cart fw-600" onclick="addToCart()">
+                                    <button type="button" class="btn btn-soft-primary mr-2 add-to-cart fw-600" onclick="addToCart()" style="background-color: #B57F2F;color: white;">
                                         <i class="las la-shopping-bag"></i>
                                         <span class="d-none d-md-inline-block"> {{ translate('Add to cart')}}</span>
                                     </button>
-                                    <button type="button" class="btn btn-primary buy-now fw-600" onclick="buyNow()">
+                                    <button type="button" class="btn btn-primary buy-now fw-600" onclick="buyNow()" style="background-color: #B57F2F">
                                         <i class="la la-shopping-cart"></i> {{ translate('Buy Now')}}
                                     </button>
                                 @else
-                                    <button type="button" class="btn btn-secondary fw-600" disabled>
+                                    <button type="button" class="btn btn-secondary fw-600" disabled style="background-color: #B57F2F">
                                         <i class="la la-cart-arrow-down"></i> {{ translate('Out of Stock')}}
                                     </button>
                                 @endif
@@ -495,7 +495,7 @@
                                                 {{ renderStarRating($top_product->rating) }}
                                             </div>
                                             <div class="mt-2">
-                                                <span class="fs-17 fw-600 text-primary">{{ home_discounted_base_price($top_product->id) }}</span>
+                                                <span class="fs-17 fw-600 text-primary" style="color: #B57F2F !important;">{{ home_discounted_base_price($top_product->id) }}</span>
                                             </div>
                                         </div>
                                     </div>
@@ -694,9 +694,9 @@
                                         <div class="p-md-3 p-2 text-left">
                                             <div class="fs-15">
                                                 @if(home_base_price($related_product->id) != home_discounted_base_price($related_product->id))
-                                                    <del class="fw-600 opacity-50 mr-1">{{ home_base_price($related_product->id) }}</del>
+                                                    <del class="fw-600 opacity-50 mr-1" style="color: #B57F2F !important;">{{ home_base_price($related_product->id) }}</del>
                                                 @endif
-                                                <span class="fw-700 text-primary">{{ home_discounted_base_price($related_product->id) }}</span>
+                                                <span class="fw-700 text-primary" style="color: #B57F2F !important;">{{ home_discounted_base_price($related_product->id) }}</span>
                                             </div>
                                             <div class="rating rating-sm mt-1">
                                                 {{ renderStarRating($related_product->rating) }}

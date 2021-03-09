@@ -125,7 +125,7 @@
                                             aria-required="true" aria-invalid="false"
                                             style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 14px; line-height: 18px; width: 100%; height: 40px; border-width: 1px; border-style: solid; border-color: rgba(129, 129, 129, 0.25); padding-right: 10px; padding-left: 10px; transition-duration: 0.5s; transition-property: border-color; box-shadow: none; border-radius: 0px; appearance: none;"></span></label>
                             </p>
-                            <div class="g-recaptcha" data-sitekey="6LfGVg8aAAAAADJUdHQ_31orZRCToa5IZHX2G_px"
+                            <!-- <div class="g-recaptcha" data-sitekey="6LfGVg8aAAAAADJUdHQ_31orZRCToa5IZHX2G_px"
                                 data-theme="light" data-size="normal" data-image="image"
                                 style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                                 <div
@@ -140,7 +140,7 @@
                                             style="border-width: 0px; border-style: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;"></iframe>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <p
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                             </p>

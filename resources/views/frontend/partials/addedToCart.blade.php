@@ -10,12 +10,12 @@
                 {{  $product->getTranslation('name')  }}
             </h6>
             <div class="row mt-3">
-                <div class="col-sm-2 opacity-60">
+                <div class="col-sm-2">
                     <div>{{ translate('Price')}}:</div>
                 </div>
                 <div class="col-sm-10">
                     <div class="h6 text-primary">
-                        <strong>
+                        <strong style="color: #B57F2F;">
                             {{ single_price(($data['price']+$data['tax'])*$data['quantity']) }}
                         </strong>
                     </div>
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="text-center">
-        <button class="btn btn-outline-primary mb-3 mb-sm-0" data-dismiss="modal">{{ translate('Back to shopping')}}</button>
-        <a href="{{ route('cart') }}" class="btn btn-primary mb-3 mb-sm-0">{{ translate('Proceed to Checkout')}}</a>
+        <button class="btn btn-outline-primary mb-3 mb-sm-0" data-dismiss="modal"style="background-color: #B57F2F ;">{{ translate('Back to shopping')}}</button>
+        <a href="{{ route('cart') }}" class="btn btn-primary mb-3 mb-sm-0" style="background-color: #B57F2F ;">{{ translate('Proceed to Checkout')}}</a>
     </div>
 </div>

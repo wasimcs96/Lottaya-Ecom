@@ -2,7 +2,7 @@
     <div class="card-header">
         <h3 class="fs-16 fw-600 mb-0">{{translate('Summary')}}</h3>
         <div class="text-right">
-            <span class="badge badge-inline badge-primary">{{ count(Session::get('cart')->where('owner_id', Session::get('owner_id'))) }} {{translate('Items')}}</span>
+            <span class="badge badge-inline badge-primary" style="background-color: #B57F2F;">{{ count(Session::get('cart')->where('owner_id', Session::get('owner_id'))) }} {{translate('Items')}}</span>
         </div>
     </div>
 

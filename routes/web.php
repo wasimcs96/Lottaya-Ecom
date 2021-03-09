@@ -33,6 +33,7 @@ Route::get('/partnerwithus', function(){
 Route::get('/contactus', function(){
     return view('frontend/partials/contact');
 });
+Route::post('/store','ContactusController@store')->name('contact.store');
 Route::post('/aiz-uploader', 'AizUploadController@show_uploader');
 Route::post('/aiz-uploader/upload', 'AizUploadController@upload');
 Route::get('/aiz-uploader/get_uploaded_files', 'AizUploadController@get_uploaded_files');

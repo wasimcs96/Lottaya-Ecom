@@ -46,14 +46,14 @@
                 @if(home_price($product->id) != home_discounted_price($product->id))
                     <div class="row no-gutters mt-3">
                         <div class="col-2">
-                            <div class="opacity-50 mt-2">{{ translate('Price')}}:</div>
+                            <div class="mt-2">{{ translate('Price')}}:</div>
                         </div>
                         <div class="col-10">
                             <div class="fs-20 opacity-60">
                                 <del>
                                     {{ home_price($product->id) }}
                                     @if($product->unit != null)
-                                        <span>/{{ $product->getTranslation('unit') }}</span>
+                                        <!-- <span>/{{ $product->getTranslation('unit') }}</span> -->
                                     @endif
                                 </del>
                             </div>
@@ -62,7 +62,7 @@
 
                     <div class="row no-gutters mt-2">
                         <div class="col-2">
-                            <div class="opacity-50">{{ translate('Discount Price')}}:</div>
+                            <div class="">{{ translate('Discount Price')}}:</div>
                         </div>
                         <div class="col-10">
                             <div class="">
@@ -70,7 +70,7 @@
                                     {{ home_discounted_price($product->id) }}
                                 </strong>
                                 @if($product->unit != null)
-                                    <span class="opacity-70">/{{ $product->getTranslation('unit') }}</span>
+                                    <!-- <span class="opacity-70">/{{ $product->getTranslation('unit') }}</span> -->
                                 @endif
                             </div>
                         </div>
@@ -182,7 +182,7 @@
 
                         <div class="row no-gutters">
                             <div class="col-2">
-                                <div class="opacity-50 mt-2">{{ translate('Quantity')}}:</div>
+                                <div class="mt-2">{{ translate('Quantity')}}:</div>
                             </div>
                             <div class="col-10">
                                 <div class="product-quantity d-flex align-items-center">
@@ -195,7 +195,7 @@
                                             <i class="las la-plus"></i>
                                         </button>
                                     </div>
-                                    <div class="avialable-amount opacity-60">(<span id="available-quantity">{{ $qty }}</span> {{ translate('available')}})</div>
+                                    <div class="avialable-amount">(<span id="available-quantity">{{ $qty }}</span> {{ translate('available')}})</div>
                                 </div>
                             </div>
                         </div>
@@ -205,11 +205,11 @@
 
                     <div class="row no-gutters pb-3 d-none" id="chosen_price_div">
                         <div class="col-2">
-                            <div class="opacity-50">{{ translate('Total Price')}}:</div>
+                            <div class="">{{ translate('Total Price')}}:</div>
                         </div>
                         <div class="col-10">
                             <div class="product-price">
-                                <strong id="chosen_price" class="h4 fw-600 text-primary">
+                                <strong id="chosen_price" class="h4 fw-600 text-primary"style="color: #B57F2F !important;">
 
                                 </strong>
                             </div>
@@ -219,17 +219,17 @@
                 </form>
                 <div class="mt-3">
                     @if ($product->digital == 1)
-                        <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()">
+                        <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()" style="background-color: #B57F2F ;">
                             <i class="la la-shopping-cart"></i>
                             <span class="d-none d-md-inline-block"> {{ translate('Add to cart')}}</span>
                         </button>
                     @elseif($qty > 0)
-                        <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()">
+                        <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()" style="background-color: #B57F2F ;">
                             <i class="la la-shopping-cart"></i>
                             <span class="d-none d-md-inline-block"> {{ translate('Add to cart')}}</span>
                         </button>
                     @else
-                        <button type="button" class="btn btn-secondary fw-600" disabled>
+                        <button type="button" class="btn btn-secondary fw-600" disabled style="background-color: #B57F2F ;">
                             <i class="la la-cart-arrow-down"></i> {{ translate('Out of Stock')}}
                         </button>
                     @endif
