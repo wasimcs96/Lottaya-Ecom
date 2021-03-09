@@ -31,7 +31,7 @@
                                 alt="{{  $product->getTranslation('name')  }}"
                                 onerror="this.onerror=null;this.src='{{ static_asset('assets/img/placeholder.jpg') }}';">
                             </a>
-                            <div class="absolute-top-right aiz-p-hov-icon">
+                            <div class="absolute-top-right aiz-p-hov-icon" style="left: 65%;top: 0;">
                                 <a href="javascript:void(0)" onclick="addToWishList({{ $product->id }})"
                                     data-toggle="tooltip" data-title="{{ translate('Add to wishlist') }}"
                                     data-placement="left">
@@ -73,7 +73,7 @@
     color: #B57F2F !important;
     border-color: #B57F2F !important;
     font-style: italic;
-    width: 13vh;
+    width: fit-content;
     background-color: #FFFAF6;
 ">Add to Cart</button>
                                 </a>

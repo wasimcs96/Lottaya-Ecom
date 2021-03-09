@@ -240,7 +240,7 @@
     </div>
     <nav>
         <div class="text-center hide-on-mobile" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
-                <a href="" style="color: #676767;">HOME</a>
+                <a href="{{ url('/') }}" style="color: #676767;">HOME</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <!-- <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a> -->
                 <div class="d-xl-block align-self-stretch category-menu-icon-box mr-0">
@@ -252,14 +252,14 @@
                         </div>
                 </div>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-                <a href="" style="color: #676767;"> CONTACT US</a>
+                <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
         </div>
         <div class="text-center hide-on-desktop" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
-        <a href="" style="color: #676767;">HOME</a>
+        <a href="{{ url('/') }}" style="color: #676767;">HOME</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-                <a href="" style="color: #676767;"> CONTACT US</a>
+                <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
     </div>
             <!-- <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
         <a href="" style="color: #676767;">NEW&nbspARRIVALS</a>

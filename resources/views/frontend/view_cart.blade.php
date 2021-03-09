@@ -81,7 +81,7 @@
                                                         alt="{{  $product->getTranslation('name')  }}"
                                                     >
                                                 </span>
-                                                <span class="fs-14 opacity-60">{{ $product_name_with_choice }}</span>
+                                                <span class="fs-14" style="color: #5E5E5E">{{ $product_name_with_choice }}</span>
                                             </div>
 
                                             <div class="col-lg col-4 order-1 order-lg-0 my-3 my-lg-0">
@@ -108,11 +108,11 @@
                                             </div>
                                             <div class="col-lg col-4 order-3 order-lg-0 my-3 my-lg-0">
                                                 <span class="opacity-60 fs-12 d-block d-lg-none">{{ translate('Total')}}</span>
-                                                <span class="fw-600 fs-16 text-primary">{{ single_price(($cartItem['price']+$cartItem['tax'])*$cartItem['quantity']) }}</span>
+                                                <span class="fw-600 fs-16 text-primary" style="color: black !important;">{{ single_price(($cartItem['price']+$cartItem['tax'])*$cartItem['quantity']) }}</span>
                                             </div>
                                             <div class="col-lg-auto col-6 order-5 order-lg-0 text-right">
                                                 <a href="javascript:void(0)" onclick="removeFromCartView(event, {{ $key }})" class="btn btn-icon btn-sm btn-soft-primary btn-circle">
-                                                    <i class="las la-trash"></i>
+                                                    <i class="las la-trash" style="color: #2a3242;"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="px-3 py-2 mb-4 border-top d-flex justify-content-between">
-                            <span class="opacity-60 fs-15">{{translate('Subtotal')}}</span>
+                            <span class="fs-15" style="color: #5E5E5E;">{{translate('Subtotal')}}</span>
                             <span class="fw-600 fs-17">{{ single_price($total) }}</span>
                         </div>
                         <div class="row align-items-center">
@@ -134,9 +134,13 @@
                             </div>
                             <div class="col-md-6 text-center text-md-right">
                                 @if(Auth::check())
-                                    <a href="{{ route('checkout.shipping_info') }}" class="btn btn-primary fw-600">{{ translate('Continue to Shipping')}}</a>
+                                    <a href="{{ route('checkout.shipping_info') }}" class="btn btn-primary fw-600" style="
+    background-color: #B57F2F;
+">{{ translate('Continue to Shipping')}}</a>
                                 @else
-                                    <button class="btn btn-primary fw-600" onclick="showCheckoutModal()">{{ translate('Continue to Shipping')}}</button>
+                                    <button class="btn btn-primary fw-600" onclick="showCheckoutModal()" style="
+    background-color: #B57F2F;
+">{{ translate('Continue to Shipping')}}</button>
                                 @endif
                             </div>
                         </div>

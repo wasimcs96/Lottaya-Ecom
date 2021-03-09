@@ -331,20 +331,20 @@
                             <span class="aiz-square-check"></span>
                             <span>{{ translate('I agree to the')}}</span>
                         </label>
-                        <a href="{{ route('terms') }}">{{ translate('terms and conditions')}}</a>,
-                        <a href="{{ route('returnpolicy') }}">{{ translate('return policy')}}</a> &
-                        <a href="{{ route('privacypolicy') }}">{{ translate('privacy policy')}}</a>
+                        <a href="{{ route('terms') }}"style="text-decoration: underline;color: black;">{{ translate('terms and conditions')}}</a>,
+                        <a href="{{ route('returnpolicy') }}"style="text-decoration: underline;color: black;">{{ translate('return policy')}}</a> &
+                        <a href="{{ route('privacypolicy') }}"style="text-decoration: underline; color: black;">{{ translate('privacy policy')}}</a>
                     </div>
 
                     <div class="row align-items-center pt-3">
                         <div class="col-6">
-                            <a href="{{ route('home') }}" class="link link--style-3">
+                            <a href="{{ route('home') }}" class="link link--style-3" style="color: black;">
                                 <i class="las la-arrow-left"></i>
                                 {{ translate('Return to shop')}}
                             </a>
                         </div>
                         <div class="col-6 text-right">
-                            <button type="button" onclick="submitOrder(this)" class="btn btn-primary fw-600">{{ translate('Complete Order')}}</button>
+                            <button type="button" onclick="submitOrder(this)" class="btn btn-primary fw-600" style="background-color: #B57F2F;">{{ translate('Complete Order')}}</button>
                         </div>
                     </div>
                 </form>
