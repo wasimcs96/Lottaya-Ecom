@@ -400,7 +400,8 @@ fixed-bottom 1030*/
 .opacity-40 { opacity: 0.4 !important; }
 .opacity-50 { opacity: 0.5 !important; }
 .opacity-60 { opacity: 0.6 !important; }
-.opacity-70 { opacity: 0.7 !important; }
+.opacity-70 { opacity: 0.7 !important;
+    font-style: italic; }
 .opacity-80 { opacity: 0.8 !important; }
 .opacity-90 { opacity: 0.9 !important; }
 .opacity-100 { opacity: 1 !important; }
@@ -521,7 +522,7 @@ fixed-bottom 1030*/
 .text-soft-primary { color: var(--soft-primary) !important; }
 .text-secondary { color: var(--secondary) !important; }
 .text-soft-secondary { color: var(--soft-secondary) !important; }
-.text-success { color: var(--success) !important; }
+.text-success { color: #B57F2F !important; }
 .text-soft-success { color: var(--soft-success) !important; }
 .text-info { color: var(--info) !important; }
 .text-soft-info { color: var(--soft-info) !important; }
@@ -4245,7 +4246,7 @@ input[type="number"] {
     position: relative;
     height: 16px;
     width: 16px;
-    border: 1px solid #d1d7e2;
+    border: 1px solid #B57F2F;
 }
 
 .aiz-checkbox .aiz-square-check,
@@ -4288,7 +4289,7 @@ input[type="number"] {
     border-width: 0 2px 2px 0 !important;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    border: solid var(--primary);
+    border: solid #B57F2F;
 }
 .aiz-rounded-check:after {
     margin-left: -3px;
@@ -4296,7 +4297,7 @@ input[type="number"] {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: var(--primary);
+    background: #B57F2F;
 }
 .aiz-checkbox > input:checked ~ .aiz-square-check:after,
 .aiz-radio > input:checked ~ .aiz-square-check:after,
@@ -4484,6 +4485,7 @@ input[type="number"] {
 .bootstrap-select.form-control-sm .dropdown-toggle {
     padding: 0.416rem 0.7rem;
     height: calc(1.5rem + 0.8rem + 2px);
+    font-style: italic;
 }
 .bootstrap-select .dropdown-toggle:active,
 .bootstrap-select .dropdown-toggle:focus,

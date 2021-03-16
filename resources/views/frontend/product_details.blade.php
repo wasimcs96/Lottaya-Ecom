@@ -37,7 +37,9 @@
 @section('content')
     <section class="mb-4 pt-3">
         <div class="container">
-            <div class="bg-white shadow-sm rounded p-3">
+            <div class="bg-white shadow-sm rounded p-3" style="
+    font-style: italic;
+">
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
                         <div class="sticky-top z-3 row gutters-10 flex-row-reverse">
