@@ -112,7 +112,7 @@
   font-size: 27px; /* change this to change the size*/
   
 }
-
+@yield('style');
     </style>
 
 @if (\App\BusinessSetting::where('type', 'google_analytics')->first()->value == 1)
