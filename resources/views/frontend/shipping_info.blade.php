@@ -14,7 +14,8 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="text-center text-primary">
+                        <!-- <div class="text-center text-primary"> -->
+                        <div class="text-center">
                             <i class="la-3x mb-2 active las la-map"></i>
                             <h3 class="fs-14 fw-600 d-none d-lg-block text-capitalize">{{ translate('2. Shipping info')}}</h3>
                         </div>

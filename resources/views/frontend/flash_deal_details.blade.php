@@ -36,6 +36,7 @@
                                                 onerror="this.onerror=null;this.src='{{ static_asset('assets/img/placeholder.jpg') }}';"
                                             >
                                         </a>
+                                        
                                         <div class="absolute-top-right aiz-p-hov-icon">
                                             <a href="javascript:void(0)" onclick="addToWishList({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to wishlist') }}" data-placement="left">
                                                 <i class="la la-heart-o"></i>
