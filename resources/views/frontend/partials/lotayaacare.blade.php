@@ -40,7 +40,7 @@
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609241063839"
         style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
         <a id="aboutus-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
-            href="#" title="About Us"
+             title="About Us"
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
                 style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">READ
                 MORE ABOUT US HERE</em></a></div>
@@ -64,7 +64,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 114px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 114px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 114px;"></span></span>
                 </div>
                 <div data-parallax="{" y":-80,"smoothness":30}"=""
                     class="wpb_single_image wpb_content_element vc_align_center"
@@ -113,7 +113,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -187,7 +187,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -210,7 +210,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -235,7 +235,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -258,7 +258,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -322,7 +322,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>
@@ -360,7 +360,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>
@@ -397,7 +397,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>
@@ -474,11 +474,17 @@
             and other least developed countries .</em></p>
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609243525767"
         style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
-        <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
-            href="http://www.lotayaa.com/landing/our-history/" title="Our History"
+        <a id="readmore-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
+         title="Our History"
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
-                style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">READ
-                MORE</em></a></div>
+                style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">READ MORE</em></a></div>
+                <p class="none our-story vc_custom_heading"
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        <em
+            style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">its obvious that lack of awareness, education, and responsibility for sustainability and its part in our daily life. Raising the pressure on eco-friendly, green, sustainable products from corporates such as hotels, MNC's and other sustainable business entities started to create the demand but at the same time increased the greenwashing. It's where we have decided to start a sustainable business, marketing ethically produced, giving assurance on the production, ingredients, sourcing manufacturers based on credibility. Lotayaa will put sustainable products at affordable prices in all households regardless of economic status.
+
+<br>
+Goals are the outcomes we seek to achieve on missions. Sustainable goals in Ethical missions are ones that prioritize the best interests of the most marginalized person in our midst.</em></p>
     <div class="wpb_single_image wpb_content_element vc_align_center"
         style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: rgb(76, 76, 76);">
         <figure class="wpb_wrapper vc_figure"
@@ -493,7 +499,7 @@
             </div>
         </figure>
     </div>
-    <h2 class="vc_custom_heading aboutusheading"
+    <h2 class="vc_custom_heading aboutusheading d-flex justify-content-center"
         style="font-family: Montserrat; line-height: 1.1; margin-bottom: 20px; font-size: 1.6rem; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
@@ -509,11 +515,18 @@
             technology promote empowerment of women)<br>- Target 8.3 (promote micro and small businesses)</em></p>
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609241087522"
         style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
-        <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
-            href="http://www.lotayaa.com/landing/target/" title=""
+        <a id="goals-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
+         title=""
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
-                style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">FIND
-                OUT MORE</em></a></div>
+                style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">FIND OUT MORE</em></a></div>
+                <p class="sustainable-goals none vc_custom_heading"
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        <em
+            style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">- Target 8.8 (fair employment and work environment for all)<br>- Target 12.a (support developing countries moving toward sustainable and technological
+capacity for sustainable consumption)
+<br>- Target 12.2 (sustainable management and use of natural resources)<br>- Target 12.5 (reduce waste generation through prevention, education, recycling and
+reuse)<br>- Target 12.6 (adopt sustainable practices for transnational companies)<br>- Target 12.8 (ensure that people have relevant information and awareness for sustainable
+lifestyles)<br><br>Goals are the outcomes we seek to achieve on missions. Sustainable goals in Ethical missions are ones that prioritize the best interests of the most marginalized person in our midst.</em></p>
     <div class="vc_row wpb_row vc_inner vc_row-fluid row"
         style="margin-right: -15px; margin-left: -15px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline;">
         <div class="col-lg-4 wpb_column vc_column_container vc_col-sm-4"
@@ -617,12 +630,12 @@
             </div>
         </div>
     </div>
-    <h2 class="vc_custom_heading aboutusheading"
+    <h2 class="vc_custom_heading aboutusheading d-flex justify-content-center"
         style="font-family: Montserrat; line-height: 1.1; margin-bottom: 20px; font-size: 1.6rem; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
             <font color="#b57f2f"><span
-                    style="font-weight: 700; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Sustainability</span><br>Benefits
+                    style="font-weight: 700; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Sustainability Benefits</span>
             </font><br>
         </em></h2>
     <p class="vc_custom_heading"
@@ -676,5 +689,39 @@
            }
         });
     });
+    
 </script>
+<script>
+$(document).ready(function(){
+        $("#readmore-button").click(function(){
+           if($(this).html()=="READ MORE")
+           {
+            $(this).html("READ LESS");
+            $(".our-story").show();
+           }
+           else
+           {
+               $(this).html("READ MORE");
+               $(".our-story").hide();
+           }
+        });
+    });
+</script>
+<script>
+$(document).ready(function(){
+        $("#goals-button").click(function(){
+           if($(this).html()=="FIND OUT MORE")
+           {
+            $(this).html("FIND OUT LESS");
+            $(".sustainable-goals").show();
+           }
+           else
+           {
+               $(this).html("FIND OUT MORE");
+               $(".sustainable-goals").hide();
+           }
+        });
+    });
+</script>
+
 @endsection
