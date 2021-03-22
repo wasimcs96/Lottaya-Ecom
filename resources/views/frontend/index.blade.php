@@ -169,16 +169,16 @@
                                                 onerror="this.onerror=null;this.src='{{ static_asset('assets/img/placeholder.jpg') }}';"
                                             >
                                         </a>
-                                        <div class="absolute-top-right aiz-p-hov-icon">
+                                        <div class="absolute-top-left aiz-p-hov-icon" style="left: 65%;">
                                             <a href="javascript:void(0)" onclick="addToWishList({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to wishlist') }}" data-placement="left">
                                                 <i class="la la-heart-o"></i>
                                             </a>
-                                            <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to compare') }}" data-placement="left">
+                                            <!-- <a href="javascript:void(0)" onclick="addToCompare({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to compare') }}" data-placement="left">
                                                 <i class="las la-sync"></i>
                                             </a>
                                             <a href="javascript:void(0)" onclick="showAddToCartModal({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to cart') }}" data-placement="left">
                                                 <i class="las la-shopping-cart"></i>
-                                            </a>
+                                            </a> -->
                                         </div>
                                     </div>
                                     <div class="p-md-3 p-2 text-left">
@@ -204,6 +204,7 @@
     font-style: italic;
     width: 13vh;
     background-color: #FFFAF6;
+    white-space: nowrap;
 " >BUY NOW</button>
                                             </a>
                                         </div>

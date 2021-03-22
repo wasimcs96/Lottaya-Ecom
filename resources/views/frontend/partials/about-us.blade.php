@@ -42,7 +42,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 114px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 114px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 114px;"></span></span>
                 </div>
                 <div data-parallax="{" y":-80,"smoothness":30}"=""
                     class="wpb_single_image wpb_content_element vc_align_center"
@@ -91,7 +91,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -188,7 +188,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -213,7 +213,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -236,7 +236,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 166.5px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 166.5px;"></span></span>
                 </div>
             </div>
         </div>
@@ -300,7 +300,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>
@@ -338,7 +338,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>
@@ -375,7 +375,7 @@
                     <span class="vc_sep_holder vc_sep_holder_l"
                         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; position: relative; -webkit-box-flex: 1; flex: 1 1 auto; min-width: 10%; width: 108px;"><span
                             class="vc_sep_line"
-                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(42, 42, 42); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
+                            style="margin: 0px; padding: 0px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-color: rgb(181, 127, 47); border-image: initial; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; height: 1px; display: block; position: relative; top: 1px; width: 108px;"></span></span>
                 </div>
             </div>
         </div>

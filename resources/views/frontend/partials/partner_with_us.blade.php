@@ -39,7 +39,7 @@
                                 <font color="#b57f2f">Become a Partner</font>
                             </em></h1>
                         <h2 class="vc_custom_heading"
-                            style="color: rgb(27, 25, 25); font-family: Montserrat; font-weight: 700; line-height: 1.4; margin-bottom: 20px; font-size: 18px; border: 0px; font-variant: inherit; font-stretch: inherit; vertical-align: baseline; text-align: center;">
+                            style="color: #676767; font-family: Montserrat; font-weight: 700; line-height: 1.4; margin-bottom: 20px; font-size: 18px; border: 0px; font-variant: inherit; font-stretch: inherit; vertical-align: baseline; text-align: center;">
                             <em
                                 style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Got
                                 what it takes to partner with the Biggest Sustainable Marketplace ?</em></h2>
@@ -84,8 +84,7 @@
                             <p
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                                 <label
-                                    style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: middle; color: rgb(27, 25, 25);">Your
-                                    name<br><span class="wpcf7-form-control-wrap your-name"
+                                style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: middle; color: #676767;">Your name<br><span class="wpcf7-form-control-wrap your-name"
                                         style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;"><input
                                             type="text" name="your-name" value="" size="40"
                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
@@ -95,8 +94,7 @@
                             <p
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                                 <label
-                                    style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: middle; color: rgb(27, 25, 25);">Sur
-                                    name<br><span class="wpcf7-form-control-wrap your-name"
+                                style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: middle; color: #676767;">Surname<br><span class="wpcf7-form-control-wrap your-name"
                                         style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;"><input
                                             type="text" name="your-name" value="" size="40"
                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
@@ -106,8 +104,7 @@
                             <p
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                                 <label
-                                    style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: middle; color: rgb(27, 25, 25);">Your
-                                    Email<br><span class="wpcf7-form-control-wrap your-email"
+                                style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: middle; color: #676767;">Your Email<br><span class="wpcf7-form-control-wrap your-email"
                                         style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;"><input
                                             type="email" name="your-email" value="" size="40"
                                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
@@ -117,7 +114,7 @@
                             <p
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                                 <label
-                                    style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: middle; color: rgb(27, 25, 25);">Mobile<br><span
+                                style="display: block; max-width: 100%; margin-bottom: 5px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: middle; color: #676767;">Mobile<br><span
                                         class="wpcf7-form-control-wrap your-Mobile"
                                         style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;"><input
                                             type="text" name="your-Mobile" value="" size="40"
@@ -145,11 +142,11 @@
                                 style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
                             </p>
                             <p
-                                style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+                            style="margin-bottom: 20px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: baseline; color: #676767;">
                                 Please fill in the form above and sudmit, one of our consultant will get back to you
                                 shortly.</p>
                             <p
-                                style="margin-bottom: 20px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+                            style="margin-bottom: 20px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: 'Montserrat'; vertical-align: baseline; color: #676767;">
                                 <input type="checkbox"
                                     style="font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; margin-right: 5px; vertical-align: middle;">&nbsp;I
                                 agree with the Tems &amp; Conditions</p>

@@ -195,6 +195,11 @@
                                 {{ translate('FAQ') }}
                             </a>
                         </li>
+                        <li class="mb-2">
+                            <a class="opacity-50 hov-opacity-100 text-reset" href="{{ url('/blog') }}">
+                                {{ translate('Blog') }}
+                            </a>
+                        </li>
                        <!--  <li class="mb-2">
                             <a class="opacity-50 hov-opacity-100 text-reset" href="{{ route('orders.track') }}">
                                 {{ translate('Report Infringment') }}
