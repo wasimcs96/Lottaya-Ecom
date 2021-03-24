@@ -46,7 +46,7 @@
                                         </div>
 
                                         <div class="mb-5">
-                                            <button type="submit" class="btn btn-primary btn-block fw-600">{{  translate('Login') }}</button>
+                                            <button type="submit" class="btn btn-primary btn-block fw-600" style="background:#B57F2F;">{{  translate('Login') }}</button>
                                         </div>
                                     </form>
                                     @if(\App\BusinessSetting::where('type', 'google_login')->first()->value == 1 || \App\BusinessSetting::where('type', 'facebook_login')->first()->value == 1 || \App\BusinessSetting::where('type', 'twitter_login')->first()->value == 1)
