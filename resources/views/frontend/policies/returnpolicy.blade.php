@@ -26,7 +26,7 @@
 </section>
 <section class="mb-4">
     <div class="container">
-        <div class="bg-white rounded shadow-sm overflow-hidden mw-100 text-left" style="font-style: italic; padding:7.395833333333333vw;">
+        <div class="bg-white rounded shadow-sm overflow-hidden mw-100 text-left" style="font-style: italic; padding:7.395833333333333vw; color:#676767;">
             @php
                 echo $return_policy->getTranslation('content');
             @endphp

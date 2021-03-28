@@ -177,7 +177,7 @@
                                 </div>
                             </div>
                         </form>
-                        <div class="typed-search-box stop-propagation document-click-d-none d-none bg-white rounded shadow-lg position-absolute left-0 top-100 w-100"
+                        <div class="typed-search-box stop-propagation document-click-d-none d-none bg-white rounded shadow-lg position-absolute top-100 w-100"
                             style="min-height: 200px">
                             <div class="search-preloader absolute-top-center">
                                 <div class="dot-loader">
@@ -210,13 +210,13 @@
                     </div>
                 </div>
 
-                <div class="d-none d-lg-block ml-3 mr-0">
+                <div class=" d-lg-block ml-3 mr-0">
                     <div class="" id="wishlist">
                         @include('frontend.partials.wishlist')
                     </div>
                 </div>
 
-                <div class="d-none d-lg-block  align-self-stretch ml-3 mr-0" data-hover="dropdown">
+                <div class=" d-lg-block  align-self-stretch ml-3 mr-0" data-hover="dropdown">
                     <div class="nav-cart-box dropdown h-100" id="cart_items">
                         @include('frontend.partials.cart')
                     </div>

@@ -221,12 +221,12 @@
                     @if ($product->digital == 1)
                         <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()" style="background-color: #B57F2F ;">
                             <i class="la la-shopping-cart"></i>
-                            <span class="d-none d-md-inline-block"> {{ translate('Add to cart')}}</span>
+                            <span class="d-md-inline-block"> {{ translate('Add to cart')}}</span>
                         </button>
                     @elseif($qty > 0)
                         <button type="button" class="btn btn-primary buy-now fw-600 add-to-cart" onclick="addToCart()" style="background-color: #B57F2F ;">
                             <i class="la la-shopping-cart"></i>
-                            <span class="d-none d-md-inline-block"> {{ translate('Add to cart')}}</span>
+                            <span class="d-md-inline-block"> {{ translate('Add to cart')}}</span>
                         </button>
                     @else
                         <button type="button" class="btn btn-secondary fw-600" disabled style="background-color: #B57F2F ;">

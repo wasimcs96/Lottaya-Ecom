@@ -184,8 +184,10 @@
                                     <div class="p-md-3 p-2 text-left">
                                     <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
                                             <a href="{{ route('product', $product->slug) }}" class="d-block text-reset"style="
-    font-style: italic; color: #5E5E5E
- !important; "  >{{  $product->getTranslation('name')  }}</a>
+    font-style: italic;
+    color: #676767
+ !important;
+">{{  $product->getTranslation('name')  }}</a>
                                         </h3>
                                         <br>
                                         <div class="fs-15"style="color: #B57F2F;">
@@ -202,10 +204,10 @@
     color: #B57F2F !important;
     border-color: #B57F2F !important;
     font-style: italic;
-    width: 13vh;
+    width: fit-content;
     background-color: #FFFAF6;
     white-space: nowrap;
-" >BUY NOW</button>
+" >Add To Cart</button>
                                             </a>
                                         </div>
                                        

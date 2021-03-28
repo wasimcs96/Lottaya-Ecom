@@ -5,7 +5,7 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-6 text-center text-lg-left">
-                <h1 class="fw-600 h4">partner with us</h1>
+                <h1 class="fw-600 h4">Partner with us</h1>
             </div>
             <div class="col-lg-6">
                 <ul class="breadcrumb bg-transparent p-0 justify-content-center justify-content-lg-end">
@@ -13,7 +13,7 @@
                         <a class="text-reset" href="http://localhost/shawn-ecommerce">Home</a>
                     </li>
                     <li class="text-dark fw-600 breadcrumb-item">
-                        <a class="text-reset" href="http://localhost/shawn-ecommerce/partnerwithus">"partner with
+                        <a class="text-reset" href="http://localhost/shawn-ecommerce/partnerwithus">"Partner with
                             us"</a>
                     </li>
                 </ul>
@@ -23,7 +23,7 @@
 </section>
 <div class="container">
     <div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column"
-        style="padding: 7.395833333333333vw;">
+        style="padding: 7.395833333333333vw; color:#676767;">
         <div class="vc_row wpb_row vc_row-fluid"
             style="margin-right: -15px; margin-left: -15px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline;">
             <div class="wpb_column vc_column_container vc_col-sm-12"

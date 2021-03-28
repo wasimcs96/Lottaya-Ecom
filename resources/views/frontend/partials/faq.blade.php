@@ -22,7 +22,7 @@
     </div>
 </section>
 <div class="container">
-<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 395833333333333vw;">
+<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 395833333333333vw; color:#676767;">
 
 <div class="container">
     <div class="row" style="
