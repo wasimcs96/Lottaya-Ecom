@@ -21,7 +21,7 @@
     </div>
 </section>
 <div class="container">
-<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 7.395833333333333vw;">
+<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 7.395833333333333vw; color:#676767;">
 <h2 class="vc_custom_heading my-4 aboutusheading"
         style="margin-left: auto; margin-right: auto; width: fit-content; font-family: Montserrat; line-height: 1.1; font-size: 1.6rem; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; vertical-align: baseline;">
         <em
@@ -31,14 +31,14 @@
                     Care</span></font>
         </em></h2>
     <p class="vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Lotayaa
             is a revolutionary sustainable e-commerce platform start up in Asia supporting all Asian ethically made
             products to be marketed internationally. Lotayaa is registered in Singapore and operating with local
             partners in many countries.</em></p>
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609241063839"
-        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
+        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: #676767; margin-bottom: 50px !important;">
         <a id="aboutus-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
              title="About Us"
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
@@ -168,7 +168,7 @@
     </div>
 </div>
 <div class="aboutus-content none vc_row wpb_row vc_row-fluid"
-    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: rgb(76, 76, 76);">
+    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: #676767;">
     <div class="col-lg-6 wpb_column vc_column_container vc_col-sm-6"
         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
@@ -217,7 +217,7 @@
     </div>
 </div>
 <div class="aboutus-content none vc_row wpb_row vc_row-fluid"
-    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: rgb(76, 76, 76);">
+    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: #676767;">
     <div class="col-lg-6 wpb_column vc_column_container vc_col-sm-6"
         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
@@ -280,7 +280,7 @@
                             <font color="#b57f2f">Impact</font>
                         </span></em></h2>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: #676767; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         Our impact is what sets us apart from our competition. While they chase quantity, we offer
@@ -290,7 +290,7 @@
     </div>
 </div>
 <div class="aboutus-content none vc_row wpb_row vc_row-fluid row"
-    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: rgb(76, 76, 76);">
+    style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: #676767;">
     <div class="wpb_column vc_column_container vc_col-sm-4 col-lg-4"
         style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
         <div class="vc_column-inner"
@@ -420,7 +420,7 @@
                                 Lotayaa Care</span></font>
                     </em></h2>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: #676767; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">At
                         Lotayaa Care we believe in giving back so a percentage of each sale is donated to non-profits
@@ -429,7 +429,7 @@
                         come from.We support and currently in discussion with orphanage homes, kidney foundations,
                         cancer foundations and other children care-related NGO’s.</em></p>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: #676767; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">If
                         you have a story to share with us from your respective country kindly drop us an email
@@ -444,7 +444,7 @@
 
                 <!-- about-us-content -->
     <div class="wpb_single_image wpb_content_element vc_align_center"
-        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: rgb(76, 76, 76);">
+        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: #676767;">
         <figure class="wpb_wrapper vc_figure"
             style="display: inline-block; margin-bottom: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: top; max-width: 100%;">
             <div class="vc_single_image-wrapper   vc_box_border_grey"
@@ -466,27 +466,27 @@
             </font>
         </em></h2>
     <p class="vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Sustainable
             products, lifestyles, and living often classified as luxury and affordable only for certain economical class
             especially in Asia. While I was travelling for work in Laos, Thailand, Myanmar, Cambodia, Vietnam, Indonesia
             and other least developed countries .</em></p>
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609243525767"
-        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
+        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: #676767; margin-bottom: 50px !important;">
         <a id="readmore-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
          title="Our History"
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
                 style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">READ MORE</em></a></div>
                 <p class="none our-story vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">its obvious that lack of awareness, education, and responsibility for sustainability and its part in our daily life. Raising the pressure on eco-friendly, green, sustainable products from corporates such as hotels, MNC's and other sustainable business entities started to create the demand but at the same time increased the greenwashing. It's where we have decided to start a sustainable business, marketing ethically produced, giving assurance on the production, ingredients, sourcing manufacturers based on credibility. Lotayaa will put sustainable products at affordable prices in all households regardless of economic status.
 
 <br>
 Goals are the outcomes we seek to achieve on missions. Sustainable goals in Ethical missions are ones that prioritize the best interests of the most marginalized person in our midst.</em></p>
     <div class="wpb_single_image wpb_content_element vc_align_center"
-        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: rgb(76, 76, 76);">
+        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: #676767;">
         <figure class="wpb_wrapper vc_figure"
             style="display: inline-block; margin-bottom: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: top; max-width: 100%;">
             <div class="vc_single_image-wrapper   vc_box_border_grey"
@@ -508,19 +508,19 @@ Goals are the outcomes we seek to achieve on missions. Sustainable goals in Ethi
                     Goals</span></font>
         </em></h2>
     <p class="vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
             Target 1.2 (reduce no of people living in poverty according to local definitions)<br>- Target 5.b (through
             technology promote empowerment of women)<br>- Target 8.3 (promote micro and small businesses)</em></p>
     <div class="vc_btn3-container vc_btn3-center vc_custom_1609241087522"
-        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: rgb(76, 76, 76); margin-bottom: 50px !important;">
+        style="border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; max-width: 100%; text-align: center; color: #676767; margin-bottom: 50px !important;">
         <a id="goals-button" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-white"
          title=""
             style="background-color: rgb(255, 255, 255); color: rgb(102, 102, 102); padding: 14px 20px; border: 1px solid rgb(255, 255, 255); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: normal; font-family: inherit; vertical-align: middle; transition-duration: 0.2s; transition-timing-function: ease-in-out; display: inline-block; cursor: pointer; background-image: linear-gradient(rgba(0, 0, 0, 0.01) 0px, rgba(0, 0, 0, 0.02) 100%); overflow-wrap: break-word; position: relative; top: 0px; box-shadow: none; background-repeat: repeat-x; border-radius: 5px;"><em
                 style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">FIND OUT MORE</em></a></div>
                 <p class="sustainable-goals none vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">- Target 8.8 (fair employment and work environment for all)<br>- Target 12.a (support developing countries moving toward sustainable and technological
 capacity for sustainable consumption)
@@ -530,7 +530,7 @@ lifestyles)<br><br>Goals are the outcomes we seek to achieve on missions. Sustai
     <div class="vc_row wpb_row vc_inner vc_row-fluid row"
         style="margin-right: -15px; margin-left: -15px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline;">
         <div class="col-lg-4 wpb_column vc_column_container vc_col-sm-4"
-            style="color: rgb(76, 76, 76); border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
+            style="color: #676767; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
             <div class="vc_column-inner"
                 style="padding-right: 15px; padding-left: 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%;">
                 <div class="wpb_wrapper"
@@ -554,7 +554,7 @@ lifestyles)<br><br>Goals are the outcomes we seek to achieve on missions. Sustai
             </div>
         </div>
         <div class="col-lg-4 wpb_column vc_column_container vc_col-sm-4"
-            style="color: rgb(76, 76, 76); border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
+            style="color: #676767; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
             <div class="vc_column-inner"
                 style="padding-right: 15px; padding-left: 15px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%;">
                 <div class="wpb_wrapper"
@@ -639,19 +639,19 @@ lifestyles)<br><br>Goals are the outcomes we seek to achieve on missions. Sustai
             </font><br>
         </em></h2>
     <p class="vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">As
             a brand, we would like to give back for what it is we take by using 100% natural materials, sustainable
             shipping and packaging to combat Co2 emissions, and recycled materials. We brainstorm every way within our
             reach to manufacture products that are in tune with Nature.</em></p>
     <p class="vc_custom_heading"
-        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: rgb(76, 76, 76);">
+        style="margin-bottom: 20px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color: #676767;">
         <em
             style="border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Lotayaa
             is more than a brand, it's a sustainable marketplace &amp; community.</em></p>
     <div class="wpb_single_image wpb_content_element vc_align_center"
-        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: rgb(76, 76, 76);">
+        style="margin-bottom: 35px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; text-align: center; color: #676767;">
         <figure class="wpb_wrapper vc_figure"
             style="display: inline-block; margin-bottom: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: top; max-width: 100%;">
             <div class="vc_single_image-wrapper   vc_box_border_grey"

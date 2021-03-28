@@ -21,7 +21,7 @@
     </div>
 </section>
 <div class="container">
-<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 7.395833333333333vw;">
+<div class="mb-4 bg-white rounded shadow-sm overflow-hidden mw-100 text-left d-flex flex-column" style="padding: 7.395833333333333vw; color:#676767;">
 <!-- <font color="#efc631">&nbsp;</font> -->
 <div class="vc_row wpb_row vc_row-fluid"
     style="margin: auto; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline;">
@@ -81,7 +81,7 @@
                             <font color="#b57f2f">Vision</font>
                         </span></em></h2>
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         To positively shape our communities by spreading awareness of socially, economically and
@@ -110,7 +110,7 @@
                             <font color="#b57f2f">Mission</font>
                         </span></em></h2>
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         To deliver a qualitative, smooth and sustainable shopping experience</em></p>
@@ -154,9 +154,9 @@
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
-                        style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
+                        style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; ">-
                         We strive to ENGAGE and INCLUDE our customers and suppliers in our vision and values, as to
                         create a better society for us all, and make everyone feel that they are welcome, irrespective
                         of race, gender, sex or religious beliefs.</em></p>
@@ -177,9 +177,9 @@
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
-                        style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
+                        style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; ">-
                         We strive for fairness and honesty. We offer equal pay, work and opportunities for all. What we
                         say is what we do and what you get. You can trust our employees, our products and our
                         policies.</em></p>
@@ -203,7 +203,7 @@
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         We expect everyone in our company and our supply chain to be accountable. This means owning up
@@ -225,7 +225,7 @@
             <div class="wpb_wrapper"
                 style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         We put QUALITY over quantity, any time, any day. Not just in our products but also in our
@@ -258,7 +258,7 @@
                             <font color="#b57f2f">Impact</font>
                         </span></em></h2>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: color:#676767; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         Our impact is what sets us apart from our competition. While they chase quantity, we offer
@@ -290,7 +290,7 @@
                     </figure>
                 </div>
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         We aim to achieve Social impact through increased employment (both among our own staff as well
@@ -327,7 +327,7 @@
                     </figure>
                 </div>
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         We aim to achieve Environmental impact by only offering products that don’t harm the
@@ -364,7 +364,7 @@
                     </figure>
                 </div>
                 <p class="vc_custom_heading"
-                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline; color:#676767;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">-
                         We aim to achieve Economic impact by providing a fair salary and a fair price to everyone
@@ -398,7 +398,7 @@
                                 Lotayaa Care</span></font>
                     </em></h2>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: color:#676767;; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">At
                         Lotayaa Care we believe in giving back so a percentage of each sale is donated to non-profits
@@ -407,7 +407,7 @@
                         come from.We support and currently in discussion with orphanage homes, kidney foundations,
                         cancer foundations and other children care-related NGO’s.</em></p>
                 <p class="vc_custom_heading"
-                    style="color: rgb(76, 76, 76); margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
+                    style="color: color:#676767; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding: 0px; border: 0px; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-family: Montserrat; font-size: 16px; vertical-align: baseline;">
                     <em
                         style="margin: 0px; padding: 0px; border: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">If
                         you have a story to share with us from your respective country kindly drop us an email

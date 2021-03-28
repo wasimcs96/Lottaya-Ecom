@@ -54,7 +54,7 @@
 </section>
 <section class="mb-4">
 	<div class="container">
-        <div class="bg-white rounded shadow-sm overflow-hidden mw-100 text-left" style="padding: 7.395833333333333vw; font-style: italic;">
+        <div class="bg-white rounded shadow-sm overflow-hidden mw-100 text-left" style="padding: 7.395833333333333vw; font-style: italic; color:#676767;">
 		    @php echo $page->getTranslation('content'); @endphp
         </div>
 	</div>

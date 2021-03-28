@@ -56,7 +56,8 @@
                         <div class="p-md-3 p-2 text-left">
                             <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0 h-35px">
                                 <a href="{{ route('product', $product->slug) }}" class="d-block text-reset" style="
-    font-style: italic; color: #5E5E5E
+    font-style: italic;
+    color: #676767
  !important;
 ">{{  $product->getTranslation('name')  }}</a>
                             </h3>
