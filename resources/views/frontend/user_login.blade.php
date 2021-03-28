@@ -36,12 +36,12 @@
                                             <div class="col-6">
                                                 <label class="aiz-checkbox">
                                                     <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
-                                                    <span class=opacity-60>{{  translate('Remember Me') }}</span>
+                                                    <span>{{  translate('Remember Me') }}</span>
                                                     <span class="aiz-square-check"></span>
                                                 </label>
                                             </div>
                                             <div class="col-6 text-right">
-                                                <a href="{{ route('password.request') }}" class="text-reset opacity-60 fs-14">{{ translate('Forgot password?')}}</a>
+                                                <a href="{{ route('password.request') }}" class="text-reset fs-14">{{ translate('Forgot password?')}}</a>
                                             </div>
                                         </div>
 
@@ -51,7 +51,7 @@
                                     </form>
                                     @if(\App\BusinessSetting::where('type', 'google_login')->first()->value == 1 || \App\BusinessSetting::where('type', 'facebook_login')->first()->value == 1 || \App\BusinessSetting::where('type', 'twitter_login')->first()->value == 1)
                                         <div class="separator mb-3">
-                                            <span class="bg-white px-3 opacity-60">{{ translate('Or Login With')}}</span>
+                                            <span class="bg-white px-3">{{ translate('Or Login With')}}</span>
                                         </div>
                                         <ul class="list-inline social colored text-center mb-5">
                                             @if (\App\BusinessSetting::where('type', 'facebook_login')->first()->value == 1)
@@ -80,7 +80,9 @@
                                 </div>
                                 <div class="text-center">
                                     <p class="text-muted mb-0">{{ translate('Dont have an account?')}}</p>
-                                    <a href="{{ route('user.registration') }}">{{ translate('Register Now')}}</a>
+                                    <a href="{{ route('user.registration') }}" style="
+    color: #676767;
+">{{ translate('Register Now')}}</a>
                                 </div>
                             </div>
                         </div>
