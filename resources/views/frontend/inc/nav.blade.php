@@ -245,8 +245,7 @@
                 <!-- <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a> -->
                 <div class="d-xl-block align-self-stretch category-menu-icon-box mr-0">
                         <div class="d-flex align-items-center" id="category-menu-icon">
-                            <div
-                                class="dropdown-toggle">
+                            <div class="dropdown-toggle">
                                 <span class="" style="color: #676767;"> SUSTAINABLE SHOP </span>
                             </div>
                         </div>
