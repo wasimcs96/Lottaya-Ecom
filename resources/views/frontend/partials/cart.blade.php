@@ -2,10 +2,12 @@
     <i class="la la-shopping-cart la-2x opacity-80"></i>
     <span class="flex-grow-1 ml-1">
         @if(Session::has('cart'))
-            <span class="badge badge-primary badge-inline badge-pill">{{ count(Session::get('cart'))}}</span>
+            <span class="badge badge-primary badge-inline badge-pill" style="
+    background-color: red!important;
+">{{ count(Session::get('cart'))}}</span>
         @else
             <span class="badge badge-primary badge-inline badge-pill" style="
-    background-color: red;
+    background-color: red!important;
 ">0</span>
         @endif
         <span class="nav-box-text d-none d-xl-block opacity-70" style="
