@@ -22,6 +22,8 @@ use App\User;
 use App\Address;
 use Session;
 use App\Utility\PayhereUtility;
+use Illuminate\Support\Facades\Http;
+use GuzzleHttp\Client;
 
 class CheckoutController extends Controller
 {
@@ -43,32 +45,49 @@ class CheckoutController extends Controller
 
             if ($request->session()->get('order_id') != null) {
                 if ($request->payment_option == 'paypal') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $paypal = new PaypalController;
                     return $paypal->getCheckout();
                 } elseif ($request->payment_option == 'stripe') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $stripe = new StripePaymentController;
                     return $stripe->stripe();
                 } elseif ($request->payment_option == 'sslcommerz') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $sslcommerz = new PublicSslCommerzPaymentController;
                     return $sslcommerz->index($request);
                 } elseif ($request->payment_option == 'instamojo') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $instamojo = new InstamojoController;
                     return $instamojo->pay($request);
                 } elseif ($request->payment_option == 'razorpay') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $razorpay = new RazorpayController;
                     return $razorpay->payWithRazorpay($request);
                 } elseif ($request->payment_option == 'paystack') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $paystack = new PaystackController;
                     return $paystack->redirectToGateway($request);
                 } elseif ($request->payment_option == 'voguepay') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $voguePay = new VoguePayController;
                     return $voguePay->customer_showForm();
                 } elseif ($request->payment_option == 'twocheckout') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $twocheckout = new TwoCheckoutController;
                     return $twocheckout->index($request);
                 } elseif ($request->payment_option == 'payhere') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $order = Order::findOrFail($request->session()->get('order_id'));
-
                     $order_id = $order->id;
                     $amount = $order->grand_total;
                     $first_name = json_decode($order->shipping_address)->name;
@@ -81,33 +100,49 @@ class CheckoutController extends Controller
                     return PayhereUtility::create_checkout_form($order_id, $amount, $first_name, $last_name, $phone, $email, $address, $city);
                 } elseif ($request->payment_option == 'payfast') {
                     $order = Order::findOrFail($request->session()->get('order_id'));
-
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $order_id = $order->id;
                     $amount = $order->grand_total;
 
                     return PayfastUtility::create_checkout_form($order_id, $amount);
                 } else if ($request->payment_option == 'ngenius') {
                     $ngenius = new NgeniusController();
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     return $ngenius->pay();
                 } else if ($request->payment_option == 'iyzico') {
                     $iyzico = new IyzicoController();
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
+
                     return $iyzico->pay();
                 } else if ($request->payment_option == 'flutterwave') {
                     $flutterwave = new FlutterwaveController();
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
+
                     return $flutterwave->pay();
                 } else if ($request->payment_option == 'mpesa') {
                     $mpesa = new MpesaController();
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
+
                     return $mpesa->pay();
                 } elseif ($request->payment_option == 'paytm') {
                     $paytm = new PaytmController;
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
+
                     return $paytm->index();
                 } elseif ($request->payment_option == 'cash_on_delivery') {
+                    $orders = Order::findOrFail($request->session()->get('order_id'));
+                    $shiping_detaails= $this->ship($orders);
                     $request->session()->put('cart', Session::get('cart')->where('owner_id', '!=', Session::get('owner_id')));
                     $request->session()->forget('owner_id');
                     $request->session()->forget('delivery_info');
                     $request->session()->forget('coupon_id');
                     $request->session()->forget('coupon_discount');
-
                     flash(translate("Your order has been placed successfully"))->success();
                     return redirect()->route('order_confirmed');
                 } elseif ($request->payment_option == 'wallet') {
@@ -138,6 +173,90 @@ class CheckoutController extends Controller
             return back();
         }
     }
+
+
+   public function ship($orders){
+       try {
+        $details = [];
+        foreach ($orders->orderDetails as $key => $value) {
+            // dd($value->product->category->name);
+            $arr = [
+                "service_id" => 1,
+                "tracking_no" => $value->order_id,
+                "shipper_order_id" => $value->order_id,
+                "order_length" => 12,
+                "order_width" => 12,
+                "order_height" => 12,
+                "order_weight" => 12,
+                "payment_type" => "cod",
+                "cod_amt_to_collect" => 40.5,
+                "incoterm" => "DDP",
+                "consignee_name" => auth()->user()->name ?? '',
+                "consignee_number" => auth()->user()->phone ?? '',
+                "consignee_country" => 'Indonesia',
+                "consignee_address" => auth()->user()->address ?? '',
+                "consignee_postal" => auth()->user()->postal_code ?? '',
+                "consignee_state" => auth()->user()->address ?? '',
+                "consignee_city" => auth()->user()->city ?? '',
+                "consignee_province" => "Cilandak",
+                "consignee_email" => auth()->user()->email ?? '',
+                "pickup_contact_name" => auth()->user()->name ?? '',
+                "pickup_contact_number" => auth()->user()->phone ?? '',
+                "pickup_country" => 'Singapore',
+                "pickup_address" => auth()->user()->address ?? '',
+                "pickup_postal" => auth()->user()->postal_code ?? '',
+                "pickup_state" => auth()->user()->address ?? '',
+                "pickup_city" => null,
+                "pickup_province" => null,
+                "items" => [
+                    [
+                        "item_desc" => $value->product->name ?? '',
+                        "item_category" => 'Fashion Apparel',
+                        "item_product_id" => $value->product->id,
+                        "item_sku" => "ITEMSKU123",
+                        "item_quantity" => 3,
+                        "item_price_value" => $value->price,
+                        "item_price_currency" => "IDR"
+                    ]
+                ]
+            ];
+            array_push($details, $arr);
+        }
+        $shipping_info = [
+            'secret_key' => 'mVa0Rlset4pP89G6NBRK3fdpQrhmZPRt',
+            "blocking" => false,
+            "orders" => $details
+        ];
+        $curl = curl_init();
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => "https://api.int.janio.asia/api/order/orders/",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30000,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => json_encode($shipping_info),
+            CURLOPT_HTTPHEADER => array(
+                "accept: application/json",
+                "content-type: application/json",
+            ),
+        ));
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        curl_close($curl);
+        if ($err) {
+            // echo "cURL Error #:" . $err;
+            return $err;
+        } else {
+            // dd(json_decode($response));
+            return $response;
+        }
+       } catch (\Throwable $th) {
+           return "not done";
+       }
+ 
+   }
 
     //redirects to this method after a successfull checkout
     public function checkout_done($order_id, $payment)
