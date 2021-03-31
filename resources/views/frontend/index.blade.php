@@ -120,7 +120,10 @@
                         <div class="col-xl col-md-6">
                             <div class="mb-3 mb-lg-0">
                                 <a href="{{ json_decode(get_setting('home_banner1_links'), true)[$key] }}" class="d-block text-reset">
-                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_1_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload">
+                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_1_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload" width="355px" height="142px" style="
+    width: 355px;
+    height: 142px;
+">
                                 </a>
                             </div>
                         </div>
@@ -169,6 +172,7 @@
                                                 onerror="this.onerror=null;this.src='{{ static_asset('assets/img/placeholder.jpg') }}';"
                                             >
                                         </a>
+                                    
                                         <div class="absolute-top-left aiz-p-hov-icon" style="left: 65%;">
                                             <a href="javascript:void(0)" onclick="addToWishList({{ $product->id }})" data-toggle="tooltip" data-title="{{ translate('Add to wishlist') }}" data-placement="left">
                                                 <i class="la la-heart-o"></i>
@@ -238,7 +242,7 @@
                         <div class="col-xl col-md-6">
                             <div class="mb-3 mb-lg-0">
                                 <a href="{{ json_decode(get_setting('home_banner2_links'), true)[$key] }}" class="d-block text-reset">
-                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_2_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload">
+                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_2_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload" width="355px" height="142px">
                                 </a>
                             </div>
                         </div>
@@ -431,7 +435,13 @@
             </div>
         </div>
     </section> -->
-
+    <style>
+                                            @media screen and (max-width:768px){
+                                                .absolute-top-left .aiz-p-hov-icon{
+                                                    left: 48%;
+                                                }
+                                            }
+                                        </style>
 @endsection
 
 @section('script')

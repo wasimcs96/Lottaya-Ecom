@@ -7,14 +7,27 @@
             <div class="col-lg-1">
             </div>
             <div class="col-lg-4">
-                <img src="{{ static_asset('leftpart.png') }}" class="img-fluid" alt="">
+            <h4 style="
+    color: #5e5e5e;
+    margin: 0px;
+">Delivery Methods</h4>
+                <img src="{{ static_asset('leftpart.png') }}" class="img-fluid" alt="" style="
+    margin: -5px;
+    margin-bottom: 10px;
+">
             </div>
             <div class="col-lg-2">
                 <img src="{{ static_asset('midpart.png') }}" class="img-fluid" alt="">
 
             </div>
             <div class="col-lg-4">
-                <img src="{{ static_asset('rightpart.png') }}" class="img-fluid" alt="">
+            <h4 style="
+    color: #5e5e5e;
+    margin: 0px;
+">Delivery Methods</h4>
+                <img src="{{ static_asset('rightpart.png') }}" class="img-fluid" alt="" style="
+    width: 150px;
+">
             </div>
             <div class="col-lg-1">
             </div>
@@ -426,7 +439,9 @@
                 <span class="badge badge-circle badge-primary position-absolute absolute-top-right"
                     id="cart_items_sidenav">{{ count(Session::get('cart'))}}</span>
                 @else
-                <span class="badge badge-circle badge-primary position-absolute absolute-top-right"
+                <span class="badge badge-circle badge-primary position-absolute absolute-top-right" style="
+    background: #B57F2F;
+"
                     id="cart_items_sidenav">0</span>
                 @endif
             </span>

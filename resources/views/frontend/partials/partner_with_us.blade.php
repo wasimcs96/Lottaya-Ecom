@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="vc_row wpb_row vc_row-fluid"
+        <div class="vc_row wpb_row vc_row-fluid fr"
             style="margin-right: -15px; margin-left: -15px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Karla, Arial, Helvetica, sans-serif; font-size: 14px; vertical-align: baseline; color: rgb(76, 76, 76);">
             <div class="wpb_column vc_column_container vc_col-sm-12"
                 style="border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; width: 100%; position: relative; min-height: 1px; float: left;">
@@ -162,4 +162,11 @@
         </div>
     </div>
 </div>
+<style>
+@media screen and (min-width:768px){
+.fr{
+    width: 600px;
+    align-self: center;
+}
+</style>
 @endsection
