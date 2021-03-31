@@ -1,4 +1,6 @@
-<div class="aiz-user-sidenav-wrap pt-4 position-relative z-1 shadow-sm">
+<div class="aiz-user-sidenav-wrap pt-4 position-relative z-1 shadow-sm" style="
+    font-style: italic;
+">
     <div class="absolute-top-right d-xl-none">
         <button class="btn btn-sm p-2" data-toggle="class-toggle" data-target=".aiz-mobile-side-nav" data-same=".mobile-side-nav-thumb">
             <i class="las la-times la-2x"></i>
@@ -262,7 +264,9 @@
         </div>
         @if (\App\BusinessSetting::where('type', 'vendor_system_activation')->first()->value == 1 && Auth::user()->user_type == 'customer')
             <div>
-                <a href="{{ route('shops.create') }}" class="btn btn-block btn-soft-primary rounded-0">
+                <a href="{{ route('shops.create') }}" class="btn btn-block btn-soft-primary rounded-0" style="
+    background: #B57F2b !important;
+">
                     </i>{{ translate('Be A Seller') }}
                 </a>
             </div>

@@ -24,7 +24,11 @@
                                               <img src="{{ uploaded_asset($wishlist->product->thumbnail_img) }}" class="img-fit h-140px h-md-200px">
                                           </a>
 
-                                          <h5 class="fs-14 mb-0 lh-1-5 fw-600 text-truncate-2">
+                                          <h5 class="fs-14 mb-0 lh-1-5 fw-600 text-truncate-2" style="
+    font-style: italic;
+    color: #676767
+ !important;
+">
                                               <a href="{{ route('product', $wishlist->product->slug) }}" class="text-reset">{{ $wishlist->product->getTranslation('name') }}</a>
                                           </h5>
                                           <div class="rating rating-sm mb-1">
@@ -32,16 +36,18 @@
                                           </div>
                                           <div class=" fs-14">
                                                 @if(home_base_price($wishlist->product->id) != home_discounted_base_price($wishlist->product->id))
-                                                    <del class="opacity-60 mr-1">{{ home_base_price($wishlist->product->id) }}</del>
+                                                    <del class="opacity-60 mr-1" style="color: #B57F2b !important;">{{ home_base_price($wishlist->product->id) }}</del>
                                                 @endif
-                                                    <span class="fw-600 text-primary">{{ home_discounted_base_price($wishlist->product->id) }}</span>
+                                                    <span class="fw-600 text-primary" style="color: #B57F2b !important;">{{ home_discounted_base_price($wishlist->product->id) }}</span>
                                           </div>
                                       </div>
                                       <div class="card-footer">
                                           <a href="#" class="link link--style-3" data-toggle="tooltip" data-placement="top" title="Remove from wishlist" onclick="removeFromWishlist({{ $wishlist->id }})">
-                                              <i class="la la-trash la-2x"></i>
+                                              <i class="la la-trash la-2x" style="
+    color: #a57f2b;
+"></i>
                                           </a>
-                                          <button type="button" class="btn btn-sm btn-block btn-primary ml-3" onclick="showAddToCartModal({{ $wishlist->product->id }})">
+                                          <button type="button" class="btn btn-sm btn-block btn-primary ml-3" style="background: #B57F2b !important;" onclick="showAddToCartModal({{ $wishlist->product->id }})">
                                               <i class="la la-shopping-cart mr-2"></i>{{ translate('Add to cart')}}
                                           </button>
                                       </div>

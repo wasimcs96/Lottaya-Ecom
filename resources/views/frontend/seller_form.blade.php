@@ -83,7 +83,9 @@
                     @endif
 
                     <div class="text-right">
-                        <button type="submit" class="btn btn-primary fw-600">{{ translate('Register Your Shop')}}</button>
+                        <button type="submit" class="btn btn-primary" style="
+    background: #a57f2b;
+    font-style: italic;">{{ translate('Register Your Shop')}}</button>
                     </div>
                 </form>
             </div>

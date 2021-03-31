@@ -14,9 +14,13 @@
         </section>
         <section class="mb-4">
             <div class="container">
-                <div class="text-center my-4 text-{{ $flash_deal->text_color }}">
+                <div class="text-center my-4" style="
+    color: #a57f2b;
+    font-style: italic;
+">
+                <!-- text-{{ $flash_deal->text_color }} -->
                     <h1 class="h2 fw-600">{{ $flash_deal->title }}</h1>
-                    <div class="aiz-count-down aiz-count-down-lg ml-3 align-items-center justify-content-center" data-date="{{ date('Y/m/d H:i:s', $flash_deal->end_date) }}"></div>
+                    <div class="aiz-count-down aiz-count-down-lg ml-3 align-items-center justify-content-center" data-date="{{ date('Y/m/d H:i:s', $flash_deal->end_date) }}" style="--primary: #EB0000;"></div>
                 </div>
                 <div class="row gutters-5 row-cols-xxl-5 row-cols-lg-4 row-cols-md-3 row-cols-2">
                     @foreach ($flash_deal->flash_deal_products as $key => $flash_deal_product)
@@ -51,14 +55,21 @@
                                     </div>
                                     <div class="p-md-3 p-2 text-left">
                                     <h3 class="fw-600 fs-13 text-truncate-2 lh-1-4 mb-0">
-                                            <a href="{{ route('product', $product->slug) }}" class="d-block text-reset">{{  $product->getTranslation('name')  }}</a>
+                                            <a href="{{ route('product', $product->slug) }}" class="d-block text-reset" style="
+    font-style: italic;
+    color: #676767!important;
+">{{  $product->getTranslation('name')  }}</a>
                                         </h3>
                                         <br>
                                         <div class="fs-15">
                                             @if(home_base_price($product->id) != home_discounted_base_price($product->id))
-                                                <del class="fw-600 opacity-50 mr-1">{{ home_base_price($product->id) }}</del>
+                                                <del class="fw-600 opacity-50 mr-1" style="
+    color: #a57f2b!important;
+">{{ home_base_price($product->id) }}</del>
                                             @endif
-                                            <span class="fw-700 text-primary" >{{ home_discounted_base_price($product->id) }}</span>
+                                            <span class="fw-700 text-primary" style="
+    color: #a57f2b!important;
+" >{{ home_discounted_base_price($product->id) }}</span>
                                         </div>
                                         <div class="rating rating-sm mt-1">
                                             {{ renderStarRating($product->rating) }}

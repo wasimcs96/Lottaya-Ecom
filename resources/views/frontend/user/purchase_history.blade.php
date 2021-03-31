@@ -8,7 +8,9 @@
             @include('frontend.inc.user_side_nav')
             <div class="aiz-user-panel">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header" style="
+    font-style: italic;
+">
                         <h5 class="mb-0 h6">{{ translate('Purchase History') }}</h5>
                     </div>
                     @if (count($orders) > 0)
