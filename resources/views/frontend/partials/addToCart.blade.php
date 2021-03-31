@@ -49,7 +49,9 @@
                             <div class="mt-2">{{ translate('Price')}}:</div>
                         </div>
                         <div class="col-10">
-                            <div class="fs-20 opacity-60">
+                            <div class="fs-20 opacity-60" style="
+    color: #a57f2b!important;
+">
                                 <del>
                                     {{ home_price($product->id) }}
                                     @if($product->unit != null)
@@ -66,7 +68,9 @@
                         </div>
                         <div class="col-10">
                             <div class="">
-                                <strong class="h2 fw-600 text-primary">
+                                <strong class="h2 fw-600 text-primary" style="
+    color: #a57f2b!important;
+">
                                     {{ home_discounted_price($product->id) }}
                                 </strong>
                                 @if($product->unit != null)

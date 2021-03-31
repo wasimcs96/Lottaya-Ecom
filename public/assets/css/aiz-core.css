@@ -3918,7 +3918,7 @@ input[type="number"] {
 .dropdown-item:hover,
 .dropdown-item:active {
     color: #fff !important;
-    background-color: var(--primary);
+    background-color: #A57F2B;
 }
 /*card elements*/
 .card {
@@ -3927,6 +3927,7 @@ input[type="number"] {
     background-color: #fff;
     margin-bottom: 20px;
     border-color: #ebedf2;
+    font-style: italic;
 }
 .card .card-header {
     display: -webkit-box;
@@ -3979,15 +3980,15 @@ input[type="number"] {
     background: #FCF3EB;
     margin-top: 5px;
     margin-right: 5px;
-    color: rgba(165, 127, 43, 0.7);;
+    color: rgba(165, 127, 43, 0.7);
     font-size: 15px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 3px 8px rgba(0,0,0,0.12);
     transform: translateX(calc(100% + 7px));
     -webkit-transform: translateX(calc(100% + 7px));
 }
 .aiz-p-hov-icon a:hover {
-    background: var(--primary);
-    color: #fff;
+    background:  rgba(165, 127, 43, 0.7);
+    color: #FCF3EB;
 }
 .aiz-p-hov-icon a:nth-child(2) {
     transition-delay: 0.05s;
@@ -6463,12 +6464,12 @@ ul.social.colored [class*="linkedin"] {
 }
 .aiz-user-sidenav .aiz-side-nav-link.active,
 .aiz-user-sidenav .aiz-side-nav-link:hover {
-    background-color: var(--soft-primary);
+    background-color: #FFFAF6;
     border-left-color: var(--primary);
 }
 .aiz-user-sidenav .level-2 .aiz-side-nav-link:hover:after,
 .aiz-user-sidenav .level-2 .aiz-side-nav-link.active:after {
-    background: var(--primary);
+    background: #FFFAF6;
     border-color: var(--primary);
 }
 .aiz-user-sidenav .active .aiz-side-nav-icon {

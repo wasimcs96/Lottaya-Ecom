@@ -729,7 +729,9 @@
 @section('modal')
     <div class="modal fade" id="chat_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-zoom product-modal" id="modal-size" role="document">
-            <div class="modal-content position-relative">
+            <div class="modal-content position-relative" style="
+    font-style: italic;
+">
                 <div class="modal-header">
                     <h5 class="modal-title fw-600 h5">{{ translate('Any query about this product')}}</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -747,9 +749,15 @@
                             <textarea class="form-control" rows="8" name="message" required placeholder="{{ translate('Your Question') }}">{{ route('product', $detailedProduct->slug) }}</textarea>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-primary fw-600" data-dismiss="modal">{{ translate('Cancel')}}</button>
-                        <button type="submit" class="btn btn-primary fw-600">{{ translate('Send')}}</button>
+                    <div class="modal-footer"> 
+                        <button type="button" class="btn btn-outline-primary fw-600" style="background: #FFFAF6;
+    color: black;
+    font-style: italic;" data-dismiss="modal">{{ translate('Cancel')}}</button>
+                        <button type="submit" class="btn btn-primary fw-600" style="
+    background: #a57f2b;
+    font-style: italic;
+";
+">{{ translate('Send')}}</button>
                     </div>
                 </form>
             </div>
