@@ -242,7 +242,10 @@
                         <div class="col-xl col-md-6">
                             <div class="mb-3 mb-lg-0">
                                 <a href="{{ json_decode(get_setting('home_banner2_links'), true)[$key] }}" class="d-block text-reset">
-                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_2_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload" width="355px" height="142px">
+                                    <img src="{{ static_asset('assets/img/placeholder-rect.jpg') }}" data-src="{{ uploaded_asset($banner_2_imags[$key]) }}" alt="{{ env('APP_NAME') }} promo" class="img-fluid lazyload" width="355px" height="142px" style="
+    width: 355px;
+    height: 142px;
+">
                                 </a>
                             </div>
                         </div>
