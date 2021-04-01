@@ -8,21 +8,28 @@
             </div>
             <div class="col-lg-4">
             <h4 style="
-    color: #5e5e5e;
+    color: #676767;
     margin: 0px;
-">Delivery Methods</h4>
+">Payment Methods</h4>
                 <img src="{{ static_asset('leftpart.png') }}" class="img-fluid" alt="" style="
     margin: -5px;
     margin-bottom: 10px;
 ">
             </div>
             <div class="col-lg-2">
-                <img src="{{ static_asset('midpart.png') }}" class="img-fluid" alt="">
+            <h4 style="
+    color: #676767;
+    margin: 0px;
+">verified by</h4>
+                <img src="{{ static_asset('midpart.png') }}" class="img-fluid" alt="" style="
+    margin-top: 10px;
+    margin-bottom: 10px;
+">
 
             </div>
             <div class="col-lg-4">
             <h4 style="
-    color: #5e5e5e;
+    color: #676767;
     margin: 0px;
 ">Delivery Methods</h4>
                 <img src="{{ static_asset('rightpart.png') }}" class="img-fluid" alt="" style="
