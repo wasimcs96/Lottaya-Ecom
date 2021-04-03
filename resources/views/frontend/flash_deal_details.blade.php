@@ -27,6 +27,7 @@
                         @php
                             $product = \App\Product::find($flash_deal_product->product_id);
                         @endphp
+                        @if(isset($product->published))
                         @if ($product->published != 0)
                             <div class="col mb-2">
                                 <div class="aiz-card-box border border-light rounded shadow-sm hov-shadow-md h-100 has-transition bg-white">
@@ -85,6 +86,7 @@
                                     </div>
                                 </div>
                             </div>
+                        @endif
                         @endif
                     @endforeach
                 </div>
