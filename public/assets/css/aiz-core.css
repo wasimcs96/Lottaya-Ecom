@@ -5261,15 +5261,15 @@ input[type="number"] {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle{
-    background-color: var(--hov-primary);
-    border-color: var(--hov-primary)
+    background-color: #B47F2F;
+    border-color: #B47F2F
 }
 .btn-primary,
 .btn-soft-primary:hover,
 .btn-outline-primary:hover {
-    background-color: var(--primary);
-    border-color: var(--primary);
-    color: var(--white);
+    background-color: #B47F2F;
+    border-color: #B47F2F;
+    color: white;
 }
 .btn-secondary,
 .btn-soft-secondary:hover,
@@ -5330,8 +5330,8 @@ input[type="number"] {
 
 /*soft buttons*/
 .btn-soft-primary {
-    background-color: var(--soft-primary);
-    color: var(--primary);
+    background-color: #A57F2B;
+    color: white;
 }
 .btn-soft-secondary {
     background-color: var(--soft-secondary);

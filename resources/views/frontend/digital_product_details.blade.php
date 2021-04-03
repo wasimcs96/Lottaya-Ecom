@@ -326,7 +326,7 @@
                                     </svg>
                                 </div>
                             @endif
-                            <div class="opacity-50 fs-12 border-bottom">{{ translate('Sold By')}}</div>
+                            <div class="fs-12 border-bottom">{{ translate('Sold By')}}</div>
                             @if($detailedProduct->added_by == 'seller' && \App\BusinessSetting::where('type', 'vendor_system_activation')->first()->value == 1)
                                 <a href="{{ route('shop.visit', $detailedProduct->user->shop->slug) }}" class="text-reset d-block fw-600">{{ $detailedProduct->user->shop->name }}
                                 @if ($detailedProduct->user->seller->verification_status == 1)

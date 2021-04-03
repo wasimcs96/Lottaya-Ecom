@@ -54,7 +54,9 @@
                             <div class="text-center py-4 mb-4">
                                 <i class="la la-check-circle la-3x text-success mb-3"></i>
                                 <h1 class="h3 mb-3 fw-600">{{ translate('Thank You for Your Order!')}}</h1>
-                                <h2 class="h5">{{ translate('Order Code:')}} <span class="fw-700 text-primary">{{ $order->code }}</span></h2>
+                                <h2 class="h5">{{ translate('Order Code:')}} <span class="fw-700 text-primary" style="
+    color: #676767!important;
+">{{ $order->code }}</span></h2>
                                 <p class="opacity-70 font-italic">{{  translate('A copy or your order summary has been sent to') }} {{ json_decode($order->shipping_address)->email }}</p>
                             </div>
                             <div class="mb-4">

@@ -1,6 +1,6 @@
 <div class="modal-body p-4 added-to-cart">
     <div class="text-center text-success mb-4">
-        <i class="las la-check-circle la-3x"></i>
+        <i class="las la-check-circle la-3x" style="color: green;"></i>
         <h3>{{ translate('Item added to your cart!')}}</h3>
     </div>
     <div class="media mb-4">
