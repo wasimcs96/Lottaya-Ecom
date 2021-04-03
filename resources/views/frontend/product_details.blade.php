@@ -127,7 +127,7 @@
                                 </div>
                                 @if (\App\BusinessSetting::where('type', 'conversation_system')->first()->value == 1)
                                     <div class="col-auto">
-                                        <button class="btn btn-sm btn-soft-primary" onclick="show_chat_modal()" style="border:solid 1px #B57F2F;color: #B57F2F">{{ translate('Message Seller')}}</button>
+                                        <button class="btn btn-sm btn-soft-primary" onclick="show_chat_modal()" style="border:solid 1px #B57F2F;">{{ translate('Message Seller')}}</button>
                                     </div>
                                 @endif
 
@@ -213,7 +213,7 @@
 
                                     <div class="row no-gutters">
                                         <div class="col-sm-2">
-                                            <div class="opacity-50 my-2">{{ \App\Attribute::find($choice->attribute_id)->getTranslation('name') }}:</div>
+                                            <div class=" my-2">{{ \App\Attribute::find($choice->attribute_id)->getTranslation('name') }}:</div>
                                         </div>
                                         <div class="col-sm-10">
                                             <div class="aiz-radio-inline">
@@ -240,7 +240,7 @@
                                 @if (count(json_decode($detailedProduct->colors)) > 0)
                                     <div class="row no-gutters">
                                         <div class="col-sm-2">
-                                            <div class="opacity-50 my-2">{{ translate('Color')}}:</div>
+                                            <div class=" my-2">{{ translate('Color')}}:</div>
                                         </div>
                                         <div class="col-sm-10">
                                             <div class="aiz-radio-inline">
@@ -357,7 +357,7 @@
                             @if ($refund_request_addon != null && $refund_request_addon->activated == 1 && $detailedProduct->refundable)
                                 <div class="row no-gutters mt-4">
                                     <div class="col-sm-2">
-                                        <div class="opacity-50 my-2">{{ translate('Refund')}}:</div>
+                                        <div class=" my-2">{{ translate('Refund')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
                                         <a href="{{ route('returnpolicy') }}" target="_blank">
@@ -373,7 +373,7 @@
                             @endif
                             <div class="row no-gutters mt-4">
                                 <div class="col-sm-2">
-                                    <div class="opacity-50 my-2">{{ translate('Share')}}:</div>
+                                    <div class="my-2">{{ translate('Share')}}:</div>
                                 </div>
                                 <div class="col-sm-10">
                                     <div class="aiz-share"></div>
@@ -403,7 +403,7 @@
                                     </svg>
                                 </div>
                             @endif
-                            <div class="opacity-50 fs-12 border-bottom">{{ translate('Sold By')}}</div>
+                            <div class="fs-12 border-bottom">{{ translate('Sold By')}}</div>
                             @if($detailedProduct->added_by == 'seller' && \App\BusinessSetting::where('type', 'vendor_system_activation')->first()->value == 1)
                                 <a href="{{ route('shop.visit', $detailedProduct->user->shop->slug) }}" class="text-reset d-block fw-600">
                                     {{ $detailedProduct->user->shop->name }}

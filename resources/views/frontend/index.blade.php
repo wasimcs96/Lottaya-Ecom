@@ -234,7 +234,7 @@
 
     {{-- Banner Section 2 --}}
     <div class="mb-4">
-        <div class="container">
+        <div class="container mw-100">
             <div class="row gutters-10">
                 @if (get_setting('home_banner2_images') != null)
                     @php $banner_2_imags = json_decode(get_setting('home_banner2_images')); @endphp
