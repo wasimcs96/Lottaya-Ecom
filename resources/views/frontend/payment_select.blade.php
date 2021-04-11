@@ -74,7 +74,7 @@
                                         @if(\App\BusinessSetting::where('type', 'stripe_payment')->first()->value == 1)
                                         
                                             <div class="col-6 col-md-4">
-                                                <div id="idStripe" style="background-color: #A57F2B;">
+                                                <div id="idStripe">
                                                 <label class="aiz-megabox d-block mb-3">
                                                     <input value="stripe" class="online_payment" type="radio" name="payment_option" checked>
                                                     <span class="d-block p-3 aiz-megabox-elem">
@@ -256,10 +256,10 @@
                                             @endphp
                                             @if($digital != 1)
                                                 <div class="col-6 col-md-4">
-                                                    <div id="idCod">
+                                                    <div id="idCod" style="background-color: #A57F2B;">
                                                     <label class="aiz-megabox d-block mb-3">
                                                         <input value="cash_on_delivery" class="online_payment" type="radio" name="payment_option" checked>
-                                                        <span class="d-block p-3 aiz-megabox-elem">
+                                                        <span class="d-block p-3 aiz-megabox-elem" style="background-color: #A57F2B">
                                                             <img src="{{ static_asset('assets/img/cards/cod.png')}}" class="img-fluid mb-2">
                                                             <span class="d-block text-center">
                                                                 <span class="d-block fw-600 fs-15">{{ translate('Cash on Delivery')}}</span>
