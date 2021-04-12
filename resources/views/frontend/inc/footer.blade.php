@@ -21,7 +21,7 @@
     color: #676767;
     margin: 0px;
 ">Verified by</h4>
-                <img src="{{ static_asset('midpart.png') }}" class="img-fluid" alt="" style="
+                <img src="{{ static_asset('verified.png') }}" class="img-fluid" alt="" style="
     margin-top: 10px;
     margin-bottom: 10px;
 ">
@@ -32,7 +32,7 @@
     color: #676767;
     margin: 0px;
 ">Delivery Methods</h4>
-                <img src="{{ static_asset('rightpart.png') }}" class="img-fluid" alt="" style="
+                <img src="{{ static_asset('deliverymethod.png') }}" class="img-fluid" alt="" style="
     width: 150px;
 ">
             </div>

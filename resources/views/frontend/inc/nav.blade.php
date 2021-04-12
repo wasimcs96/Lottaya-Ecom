@@ -257,7 +257,7 @@
         <div class="text-center hide-on-desktop" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
         <a href="{{ url('/') }}" style="color: #676767;">HOME</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-                <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
+                <a href="{{ url('/categories') }}" style="color: #676767;"> SUSTAINABLE SHOP</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
     </div>
