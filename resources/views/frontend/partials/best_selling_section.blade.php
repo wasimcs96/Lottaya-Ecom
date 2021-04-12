@@ -7,13 +7,13 @@
                     <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block homeheading"
                         style="font-style: italic;color: #B57F2F;">{{ translate('Trending Searches') }}</span>
                 </h3>
-                <a href="javascript:void(0)" class="ml-auto mr-0 btn btn-primary btn-sm shadow-md" style="
+                <!-- <a href="javascript:void(0)" class="ml-auto mr-0 btn btn-primary btn-sm shadow-md" style="
     color: #B57F2F;
     background-color: white;
     font-style: italic;
     font-weight: 600;
      border: 1px solid #A57F2B;
-">{{ translate('Top 20') }}</a>
+">{{ translate('Top 20') }}</a> -->
             </div>
             <div class="aiz-carousel gutters-10 half-outside-arrow" data-items="6" data-xl-items="5" data-lg-items="4"
                 data-md-items="3" data-sm-items="2" data-xs-items="2" data-arrows='true' data-infinite='true'>

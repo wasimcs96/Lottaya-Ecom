@@ -8,14 +8,14 @@
                 </h3>
                <!-- <a href="#"  class="ml-auto mr-0 btn btn-primary btn-sm shadow-md w-100 w-md-auto"
                         style="background-color: transparent;border-color:  #A57F2B;color: #A57F2B;font-style: italic;">View More</a> -->
-                        <a href="javascript:void(0)" class="btn btn-primary btn-sm shadow-md" style="
+                        <!-- <a href="javascript:void(0)" class="btn btn-primary btn-sm shadow-md" style="
     color: #B57F2F;
     background-color: white;
     font-style: italic;
     font-weight: 600;
     border: 1px solid #A57F2B;
     white-space: nowrap;
-">View More</a>
+">View More</a> -->
             </div>
             <div class="aiz-carousel gutters-10 half-outside-arrow" data-items="6" data-xl-items="5" data-lg-items="4"
                 data-md-items="3" data-sm-items="2" data-xs-items="2" data-arrows='true' data-infinite='true'>

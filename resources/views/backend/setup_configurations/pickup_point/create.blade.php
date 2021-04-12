@@ -37,6 +37,7 @@
                             </label>
                         </div>
                     </div>
+                    
                     <div class="form-group row row">
                         <label class="col-sm-3 col-from-label" for="name">{{translate('Pick-up Point Manager')}}</label>
                         <div class="col-sm-9">

@@ -130,6 +130,8 @@
                     </a>
 
                     <!-- @if(Route::currentRouteName() != 'home')
+                   
+                    @endif -->
                     <div class="d-none d-xl-block align-self-stretch category-menu-icon-box ml-auto mr-0">
                         <div class="h-100 d-flex align-items-center" id="category-menu-icon">
                             <div
@@ -138,7 +140,6 @@
                             </div>
                         </div>
                     </div>
-                    @endif -->
                 </div>
                 <div class="d-lg-none ml-auto mr-0">
                     <a class="p-2 d-block text-reset" href="javascript:void(0);" data-toggle="class-toggle"
@@ -225,6 +226,8 @@
             </div>
         </div>
         <!-- @if(Route::currentRouteName() != 'home') -->
+        
+        <!-- @endif -->
         <div class="hover-category-menu position-absolute w-100 top-100 left-0 right-0 d-none z-3"
             id="hover-category-menu">
             <div class="container">
@@ -235,8 +238,6 @@
                 </div>
             </div>
         </div>
-        <!-- @endif -->
-       
     </div>
     <nav>
         <div class="text-center hide-on-mobile" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">

@@ -20,7 +20,7 @@
             <h4 style="
     color: #676767;
     margin: 0px;
-">verified by</h4>
+">Verified by</h4>
                 <img src="{{ static_asset('midpart.png') }}" class="img-fluid" alt="" style="
     margin-top: 10px;
     margin-bottom: 10px;
