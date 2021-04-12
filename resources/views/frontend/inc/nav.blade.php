@@ -320,3 +320,8 @@
     </div>
     </nav> -->
 </header>
+<style>
+.hover-category-menu:hover{
+    display: block !important;
+}
+</style>
