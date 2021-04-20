@@ -218,16 +218,18 @@
                                         <div class="col-sm-10">
                                             <div class="aiz-radio-inline">
                                                 @foreach ($choice->values as $key => $value)
-                                                <label class="aiz-megabox pl-0 mr-2">
+                                                <label class="aiz-megabox pl-0 mr-2 changeAttribute" custom="{{$key}}">
                                                     <input
                                                         type="radio"
                                                         name="attribute_id_{{ $choice->attribute_id }}"
                                                         value="{{ $value }}"
                                                         @if($key == 0) checked @endif
                                                     >
-                                                    <span class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2">
-                                                        {{ $value }}
-                                                    </span>
+                                                    <div >
+                                                        <span id="change-{{$key}}"  class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2 change">
+                                                            {{ $value }}
+                                                        </span>
+                                                    </div>
                                                 </label>
                                                 @endforeach
                                             </div>
@@ -884,4 +886,22 @@
         }
 
     </script>
+    {{-- <script>
+        ​
+        document. getElementById('change'). onclick = changeColor;
+        ​
+        function changeColor() {
+        document. body. style. color = "purple";
+        }
+        </script> --}}
+
+    <script>
+        $(".changeAttribute").click(function(){
+            var id = $(this).attr("custom");
+            $(".change").css("background-color","")
+            $("#change-"+id).css("background-color", "#b57f2f");
+//   alert("The paragraph was clicked.");
+// console.log(id);
+});
+        </script>    
 @endsection
