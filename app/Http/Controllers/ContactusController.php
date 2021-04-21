@@ -9,10 +9,10 @@ class ContactusController extends Controller
     public function store(Request $request)
     {
         Contactus::create([
-            'name'=>$request->name,
+            'f_name'=>$request->name,
             'email'=>$request->email,
-            'subject'=>$request->subject,
-            'messege'=>$request->messege,
+            'sur_name'=>$request->surname,
+            'mobile'=>$request->mobile,
         ]);
         return view('frontend.index');
     }

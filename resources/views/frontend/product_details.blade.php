@@ -147,7 +147,7 @@
                                         <div class=" my-2" style="color: #5E5E5E">{{ translate('Price')}}:</div>
                                     </div>
                                     <div class="col-sm-10">
-                                        <div class="fs-20 opacity-60">
+                                        <div class="fs-20 opacity-60" style="color: #b47e2f !important;opacity: 0.8;">
                                             <del>
                                                 {{ home_price($detailedProduct->id) }}
                                                 @if($detailedProduct->unit != null)
@@ -164,7 +164,7 @@
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="">
-                                            <strong class="h2 fw-600 text-primary" style="color: #5E5E5E !important;opacity: 0.8;">
+                                            <strong class="h2 fw-600 text-primary"  style="color: #b47e2f !important;opacity: 0.8;">
                                                 {{ home_discounted_price($detailedProduct->id) }}
                                             </strong>
                                             @if($detailedProduct->unit != null)
@@ -180,7 +180,7 @@
                                     </div>
                                     <div class="col-sm-10">
                                         <div class="">
-                                            <strong class="h2 fw-600 text-primary">
+                                            <strong class="h2 fw-600 text-primary"  style="color: #b47e2f !important;opacity: 0.8;">
                                                 {{ home_discounted_price($detailedProduct->id) }}
                                             </strong>
                                             <!-- <span class="opacity-70">/{{ $detailedProduct->getTranslation('unit') }}</span> -->
@@ -218,7 +218,7 @@
                                         <div class="col-sm-10">
                                             <div class="aiz-radio-inline">
                                                 @foreach ($choice->values as $key => $value)
-                                                <label class="aiz-megabox pl-0 mr-2 changeAttribute" custom="{{$key}}">
+                                                <label class="aiz-megabox pl-0 mr-2 changeAttribute" custom="{{$key}}" custom2="{{ $choice->attribute_id }}">
                                                     <input
                                                         type="radio"
                                                         name="attribute_id_{{ $choice->attribute_id }}"
@@ -226,7 +226,7 @@
                                                         @if($key == 0) checked @endif
                                                     >
                                                     <div >
-                                                        <span id="change-{{$key}}"  class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2 change">
+                                                        <span id="change-{{$key}}-{{ $choice->attribute_id }}"  class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2 change-{{ $choice->attribute_id }}">
                                                             {{ $value }}
                                                         </span>
                                                     </div>
@@ -886,20 +886,35 @@
         }
 
     </script>
-    {{-- <script>
-        ​
-        document. getElementById('change'). onclick = changeColor;
-        ​
-        function changeColor() {
-        document. body. style. color = "purple";
-        }
-        </script> --}}
 
     <script>
         $(".changeAttribute").click(function(){
             var id = $(this).attr("custom");
-            $(".change").css("background-color","")
-            $("#change-"+id).css("background-color", "#b57f2f");
+            var attribute_id  = $(this).attr("custom2");
+            if( attribute_id == 1)
+            {
+                $(".change-1").css("background-color","")
+                $("#change-"+id+"-1").css("background-color", "#b57f2f");
+            }
+
+            if( attribute_id == 2)
+            {
+                $(".change-2").css("background-color","")
+                $("#change-"+id+"-2").css("background-color", "#b57f2f");
+            }
+
+            if( attribute_id == 3)
+            {
+                $(".change-3").css("background-color","")
+                $("#change-"+id+"-3").css("background-color", "#b57f2f");
+            }
+
+            if( attribute_id == 4)
+            {
+                $(".change-4").css("background-color","")
+                $("#change-"+id+"-4").css("background-color", "#b57f2f");
+            }
+           
 //   alert("The paragraph was clicked.");
 // console.log(id);
 });
