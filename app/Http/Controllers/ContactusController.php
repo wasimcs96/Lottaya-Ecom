@@ -26,7 +26,7 @@ class ContactusController extends Controller
         // $array['details'] = $request->messege;
         
        
-            mail::to('qureshisufiyan778@gmail.com')->queue(new SupportMailManager($array));
+            mail::to('Hello@lotaya.com')->queue(new SupportMailManager($array));
        
         return view('frontend.index');
     }
