@@ -613,11 +613,6 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 </script>
-<script>
-    $("#plus").click(function(){
-        console.log('gyhgrey');    
-        });
-</script>
 
     @yield('script')
 
