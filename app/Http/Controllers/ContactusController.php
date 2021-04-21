@@ -21,8 +21,10 @@ class ContactusController extends Controller
         $array['subject'] = 'Mail from'. $request->name;
         $array['from'] = $request->email;
         $array['content'] = $request->messege ;
+
         // $array['link'] = 'lot.demolinks.tech';
         $array['sender'] = $request->name ;
+        
         // $array['details'] = $request->messege;
         
        
