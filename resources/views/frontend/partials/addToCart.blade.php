@@ -138,14 +138,14 @@
                                     <div class="col-10">
                                         <div class="aiz-radio-inline">
                                             @foreach ($choice->values as $key => $value)
-                                            <label class="aiz-megabox pl-0 mr-2">
+                                            <label class="aiz-megabox pl-0 mr-2 changeAttribute" custom="{{$key}}">
                                                 <input
                                                     type="radio"
                                                     name="attribute_id_{{ $choice->attribute_id }}"
                                                     value="{{ $value }}"
                                                     @if($key == 0) checked @endif
                                                 >
-                                                <span class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2">
+                                                <span id="change-{{$key}}" class="aiz-megabox-elem rounded d-flex align-items-center justify-content-center py-2 px-3 mb-2 change">
                                                     {{ $value }}
                                                 </span>
                                             </label>
@@ -195,7 +195,7 @@
                                             <i class="las la-minus"></i>
                                         </button>
                                         <input type="text" name="quantity" class="col border-0 text-center flex-grow-1 fs-16 input-number" placeholder="1" value="{{ $product->min_qty }}" min="{{ $product->min_qty }}" max="10" readonly>
-                                        <button class="btn  col-auto btn-icon btn-sm btn-circle btn-light" type="button" data-type="plus" data-field="quantity">
+                                        <button class="btn  col-auto btn-icon btn-sm btn-circle btn-light"  type="button" data-type="plus" data-field="quantity">
                                             <i class="las la-plus"></i>
                                         </button>
                                     </div>
@@ -245,8 +245,19 @@
 </div>
 
 <script type="text/javascript">
-    cartQuantityInitialize();
+  
+        cartQuantityInitialize();
     $('#option-choice-form input').on('change', function () {
         getVariantPrice();
     });
 </script>
+
+<script>
+    $(".changeAttribute").click(function(){
+        var id = $(this).attr("custom");
+        $(".change").css("background-color","")
+        $("#change-"+id).css("background-color", "#b57f2f");
+//   alert("The paragraph was clicked.");
+console.log(id);
+});
+    </script> 
