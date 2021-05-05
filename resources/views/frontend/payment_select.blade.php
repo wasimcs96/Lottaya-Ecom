@@ -63,7 +63,7 @@
                                                 <label class="aiz-megabox d-block mb-3">
                                                     <input value="paypal" class="online_payment" type="radio" name="payment_option" checked>
                                                     <span class="d-block p-3 aiz-megabox-elem">
-                                                        <img src="{{ static_asset('assets/img/cards/paypal.png')}}" class="img-fluid mb-2">
+                                                        <img src="{{ static_asset('assets/img/cards/paypal.png')}}" class="img-fluid mb-2" id="idPaypal">
                                                         <span class="d-block text-center">
                                                             <span class="d-block fw-600 fs-15">{{ translate('Paypal')}}</span>
                                                         </span>
@@ -72,16 +72,19 @@
                                             </div>
                                         @endif
                                         @if(\App\BusinessSetting::where('type', 'stripe_payment')->first()->value == 1)
+                                        
                                             <div class="col-6 col-md-4">
+                                                <div id="idStripe">
                                                 <label class="aiz-megabox d-block mb-3">
                                                     <input value="stripe" class="online_payment" type="radio" name="payment_option" checked>
                                                     <span class="d-block p-3 aiz-megabox-elem">
-                                                        <img src="{{ static_asset('assets/img/cards/stripe.png')}}" class="img-fluid mb-2">
+                                                        <img src="{{ static_asset('assets/img/cards/stripe.png')}}" class="img-fluid mb-2"  >
                                                         <span class="d-block text-center">
                                                             <span class="d-block fw-600 fs-15">{{ translate('Stripe')}}</span>
                                                         </span>
                                                     </span>
                                                 </label>
+                                                </div>
                                             </div>
                                         @endif
                                         @if(\App\BusinessSetting::where('type', 'sslcommerz_payment')->first()->value == 1)
@@ -253,6 +256,7 @@
                                             @endphp
                                             @if($digital != 1)
                                                 <div class="col-6 col-md-4">
+                                                    <div id="idCod"  style="background-color: #A57F2B">
                                                     <label class="aiz-megabox d-block mb-3">
                                                         <input value="cash_on_delivery" class="online_payment" type="radio" name="payment_option" checked>
                                                         <span class="d-block p-3 aiz-megabox-elem">
@@ -262,6 +266,7 @@
                                                             </span>
                                                         </span>
                                                     </label>
+                                                    </div>
                                                 </div>
                                             @endif
                                         @endif
@@ -359,6 +364,12 @@
 </section>
 @endsection
 
+<style>
+    .colorClass{
+        background-color: #A57F2B;
+    }
+</style>
+
 @section('script')
     <script type="text/javascript">
 
@@ -391,5 +402,24 @@
             $('#manual_payment_description').parent().removeClass('d-none');
             $('#manual_payment_description').html($('#manual_payment_info_'+id).html());
         }
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("#idStripe").click(function(){
+                $("#idStripe").css("background-color", "#A57F2B");
+                $("#idCod").css("background-color", "");
+            });
+            
+        });
+       
+    </script>
+    <script>
+         $(document).ready(function(){
+            $("#idCod").click(function(){
+                $("#idCod").css("background-color", "#A57F2B");
+                $("#idStripe").css("background-color", "");
+            });
+            
+        });
     </script>
 @endsection

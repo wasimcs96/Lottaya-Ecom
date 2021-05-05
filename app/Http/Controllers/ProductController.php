@@ -178,7 +178,14 @@ class ProductController extends Controller
             }
         }
         $product->tags = implode(',', $tags);
-        $discount_percentage=100 - ($request->purchase_price/$request->unit_price)*100;
+        if($request->unit_price == 0)
+        {
+            $discount_percentage='';
+        }
+        else
+        {
+            $discount_percentage=100 - ($request->purchase_price/$request->unit_price)*100;
+        }
         $product->description = $request->description;
         $product->video_provider = $request->video_provider;
         $product->video_link = $request->video_link;

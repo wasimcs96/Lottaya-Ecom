@@ -130,6 +130,8 @@
                     </a>
 
                     <!-- @if(Route::currentRouteName() != 'home')
+                   
+                    @endif -->
                     <div class="d-none d-xl-block align-self-stretch category-menu-icon-box ml-auto mr-0">
                         <div class="h-100 d-flex align-items-center" id="category-menu-icon">
                             <div
@@ -138,7 +140,6 @@
                             </div>
                         </div>
                     </div>
-                    @endif -->
                 </div>
                 <div class="d-lg-none ml-auto mr-0">
                     <a class="p-2 d-block text-reset" href="javascript:void(0);" data-toggle="class-toggle"
@@ -256,7 +257,7 @@
         <div class="text-center hide-on-desktop" id="navbar" style="display: flex;flex-wrap: wrap; justify-content: center;">
         <a href="{{ url('/') }}" style="color: #676767;">HOME</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
-                <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
+                <a href="{{ url('/categories') }}" style="color: #676767;"> SUSTAINABLE SHOP</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
     </div>  
@@ -319,3 +320,8 @@
     </div>
     </nav> -->
 </header>
+<style>
+.hover-category-menu:hover{
+    display: block !important;
+}
+</style>

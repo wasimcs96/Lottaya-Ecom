@@ -320,3 +320,4 @@ Route::get('/{slug}', 'PageController@show_custom_page')->name('custom-pages.sho
 Route::get('faqs',function(){
 	return view('frontend.faq');
 })->name('faq');
+

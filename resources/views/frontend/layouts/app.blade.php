@@ -188,9 +188,7 @@
                 <div class="c-preloader text-center p-3">
                     <i class="las la-spinner la-spin la-3x"></i>
                 </div>
-                <button type="button" class="close absolute-top-right btn-icon close z-1" data-dismiss="modal" aria-label="Close" style="
-    background: center;
-">
+                <button type="button" class="close absolute-top-right btn-icon close z-1" data-dismiss="modal" aria-label="Close" style="background: center;">
                     <span aria-hidden="true" class="la-2x">&times;</span>
                 </button>
                 <div id="addToCart-modal-body">
