@@ -304,30 +304,30 @@
                     <ul class="list-unstyled fw-600" style="color: black;">
                         @if (Auth::check())
                         <li class="mb-2">
-                            <a class="opacity-50 hov-opacity-100 text-reset" href="{{ route('logout') }}">
+                            <a class="opacity-50 hov-opacity-100 text-reset" href="https://www.facebook.com/LotayaaSG-100892871905992/?hc_ref=ART7SMN50aigB2rDVdm_UWb3DR57fXthyCUBuwVNH5pQtiFHgo7DE2VSGVsnFDb0TSs&fref=nf&__xts__[0]=68.ARDlLp2QeS4mdlejZ4iaDZ38leKWXjgOjbQ_fvw-Dazzf8IxHuJRGbxRaXbw6TF-WlawCV6hWcGCGwAd2xrq5tAPTMVVC2QASd49PCfaVN4r6_jCDTj-cfurJUMxrYC1cXYtQaiN0srEW1gSaNFl5o7GE1aHULq59ZtWwW__-V3U6uWcR2CcSYjXCjwPL_DMW1pgsjTnwZZ7TRUFJn0fr8p0CXsAMQFY4IiKdxiJu9Ax8A7yR2KEMcpf4UgRhEGPzYNM7rWPSqgnl_EjjTmVhu74ld4givGLb26DC01ZlmrrZ-0aPDF1M66RzEySaNMHQODYElUs4xjGAUSgH2bwNtc">
                                 {{ translate('Facebook') }}
                             </a>
                         </li>
                         @else
                         <li class="mb-2">
-                            <a class="opacity-50 hov-opacity-100 text-reset" href="{{ route('user.login') }}">
+                            <a class="opacity-50 hov-opacity-100 text-reset" href="https://www.facebook.com/LotayaaSG-100892871905992/?hc_ref=ART7SMN50aigB2rDVdm_UWb3DR57fXthyCUBuwVNH5pQtiFHgo7DE2VSGVsnFDb0TSs&fref=nf&__xts__[0]=68.ARDlLp2QeS4mdlejZ4iaDZ38leKWXjgOjbQ_fvw-Dazzf8IxHuJRGbxRaXbw6TF-WlawCV6hWcGCGwAd2xrq5tAPTMVVC2QASd49PCfaVN4r6_jCDTj-cfurJUMxrYC1cXYtQaiN0srEW1gSaNFl5o7GE1aHULq59ZtWwW__-V3U6uWcR2CcSYjXCjwPL_DMW1pgsjTnwZZ7TRUFJn0fr8p0CXsAMQFY4IiKdxiJu9Ax8A7yR2KEMcpf4UgRhEGPzYNM7rWPSqgnl_EjjTmVhu74ld4givGLb26DC01ZlmrrZ-0aPDF1M66RzEySaNMHQODYElUs4xjGAUSgH2bwNtc&__tn__=kC-R">
                                 {{ translate('Facebook') }}
                             </a>
                         </li>
                         @endif
                         <li class="mb-2">
                             <a class="opacity-50 hov-opacity-100 text-reset"
-                                href="{{ route('purchase_history.index') }}">
+                                href="">
                                 {{ translate('Twitter') }}
                             </a>
                         </li>
                         <li class="mb-2">
-                            <a class="opacity-50 hov-opacity-100 text-reset" href="{{ route('wishlists.index') }}">
+                            <a class="opacity-50 hov-opacity-100 text-reset" href="https://www.instagram.com/lotayaashopasia/">
                                 {{ translate('Instagram') }}
                             </a>
                         </li>
                         <li class="mb-2">
-                            <a class="opacity-50 hov-opacity-100 text-reset" href="{{ route('orders.track') }}">
+                            <a class="opacity-50 hov-opacity-100 text-reset" href="https://www.linkedin.com/company/lotayaa-com/">
                                 {{ translate('Linkedin') }}
                             </a>
                         </li>
