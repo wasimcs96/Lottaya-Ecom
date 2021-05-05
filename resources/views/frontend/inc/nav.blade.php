@@ -226,7 +226,7 @@
             </div>
         </div>
         <!-- @if(Route::currentRouteName() != 'home') -->
-        
+       
         <!-- @endif -->
         <div class="hover-category-menu position-absolute w-100 top-100 left-0 right-0 d-none z-3"
             id="hover-category-menu">
@@ -260,7 +260,7 @@
                 <a href="{{ url('/categories') }}" style="color: #676767;"> SUSTAINABLE SHOP</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
-    </div>
+    </div>  
             <!-- <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
         <a href="" style="color: #676767;">NEW&nbspARRIVALS</a>
 
