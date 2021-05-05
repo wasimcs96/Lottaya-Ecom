@@ -259,7 +259,7 @@
                 <a href="" style="color: #676767;"> SUSTAINABLE SHOP</a>
                 <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
                 <a href="{{ url('/contactus') }}" style="color: #676767;"> CONTACT US</a>
-    </div>
+    </div>  
             <!-- <label for="">&nbsp&nbsp|&nbsp&nbsp</label>
         <a href="" style="color: #676767;">NEW&nbspARRIVALS</a>
 
