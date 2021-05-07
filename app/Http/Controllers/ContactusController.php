@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Contactus;
 use Mail;
+use App\User;
 use App\Mail\SupportMailManager;
 class ContactusController extends Controller
 {
@@ -20,15 +21,15 @@ class ContactusController extends Controller
         $array['view'] = 'emails.contactus';
         $array['subject'] = 'Mail from'. $request->name;
         $array['from'] = $request->email;
-        $array['content'] = $request->messege ;
+        $array['content'] = $request->subject ;
 
         // $array['link'] = 'lot.demolinks.tech';
         $array['sender'] = $request->name ;
         
         // $array['details'] = $request->messege;
+        // dd(User::where('user_type', 'admin')->first()->email);
         
-       
-            mail::to('Hello@lotaya.com')->queue(new SupportMailManager($array));
+            mail::to(User::where('user_type', 'admin')->first()->email)->queue(new SupportMailManager($array));
        
         return view('frontend.index');
     }

@@ -36,6 +36,7 @@ class SupportMailManager extends Mailable
                          'content' => $this->array['content'],
                          //'link' => $this->array['link'],
                          'sender' => $this->array['sender'],
+                          'subject' => $this->array['subject'] ?? '',
                          //'details' => $this->array['details']
                      ]);
      }

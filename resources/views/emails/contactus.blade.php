@@ -1,4 +1,4 @@
-<h1>Query from User</h1>
+<h1>{{ $sender }}</h1>
 <p>{{ $content }}</p>
 <p><b>{{ translate('Sender') }}: </b>{{ $sender }}</p>
 <p>
