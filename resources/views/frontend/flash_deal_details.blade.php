@@ -23,10 +23,8 @@
                     <div class="aiz-count-down aiz-count-down-lg ml-3 align-items-center justify-content-center" data-date="{{ date('Y/m/d H:i:s', $flash_deal->end_date) }}" style="--primary: #EB0000;"></div>
                 </div>
                 <div class="row gutters-5 row-cols-xxl-5 row-cols-lg-4 row-cols-md-3 row-cols-2">
-                    @foreach ($flash_deal->flash_deal_products as $key => $flash_deal_product)
-                        @php
-                            $product = \App\Product::find($flash_deal_product->product_id);
-                        @endphp
+                    <?php  $todaysproducts=\App\Product::where('todays_deal',1)->get(); ?>
+                    @foreach ($todaysproducts as $key => $product)
                         @if(isset($product->published))
                         @if ($product->published != 0)
                             <div class="col mb-2">
